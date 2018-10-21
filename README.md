@@ -6,21 +6,25 @@
 
 [@嘉明](http://reng99.cc/about/)
 
-### 相关目录
+### 相关内容
 
-> 有待添加
+仓库是对生活、学习和工作做总结归纳，详情请戳对应内容进入了解 @~@
+
+- [生活](./src/life/)
+
+- [学习](./src/learn/)
+
+- [工作](./src/work/)
 
 
 ### 相关社交账号
 
 |社交软件名称|社交账号/链接|
 |:-----:|:-----:|
-|微信|请搜索18819473489|
 |微博|[链接](https://weibo.com/reng99)|
 |github|[链接](https://github.com/reng99)|
 |掘金|[链接](https://juejin.im/user/5a00493f5188252c224d6475)|
 |知乎|[链接](https://www.zhihu.com/people/reng99/activities)|
-|邮箱|1837895991@qq.com|
 
 
 ### 许可证
