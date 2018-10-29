@@ -1,6 +1,6 @@
 ## 诗和远方
 
-本仓库[@嘉明](http://reng99.cc/about/)存放的是2018年10月21号之后的博文信息，旧版的博文请戳[嘉明的旧版博客](https://github.com/reng99/reng99.github.io)。
+本仓库[@嘉明](http://reng99.cc/about/)存放的是2018年10月21号之后的博文信息，旧版的博文请戳[嘉明的旧版博客](https://github.com/reng99/reng99.github.io)。本仓库的内容仅代表个人的观点，如有雷同甚是荣幸～
 
 
 ### 相关内容
