@@ -4,7 +4,7 @@
 
 > 原则：结合业务场景选择正确的图片格式；在图片不失真的情况下，图片大小达到最小；使用cdn进行引入。
 
-> 压缩工具： 推荐[tinypng图片压缩](https://tinypng.com/)，目前使用成本最低的压缩工具；[编码BASE64](https://tool.css-js.com/base64.html)的转换工具。
+> 工具： 推荐[tinypng](https://tinypng.com/)图片压缩工具；[编码BASE64](https://tool.css-js.com/base64.html)的转换工具。
 
 #### 1. JPEG/JPG
 
