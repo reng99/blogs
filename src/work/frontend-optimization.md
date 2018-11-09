@@ -68,4 +68,6 @@ MemoryCache，是指存在内存中的缓存。从优先级上来说，它是浏
 
 Service Worker 是一种独立于主线程之外的Javascript线程。它脱离于浏览器窗体，因此无法访问DOM。这样独立的个性使得Service Worker的“个人行为”无法干扰页面的性能，这个`幕后工作者`可以帮我们实现离线缓存，消息推送和网络代理等功能。借助Service Worker实现的离线缓存就称为**Service Worker Cache**。
 
+Service Worker 的生命周期包括install、active、working三个阶段。一旦Service Worker 被install，它将始终存在，只会在active与working之间切换，除非我们主动终止它。这是可以用来实现离线存储的重要先决条件。
+
 > 有待补充
