@@ -70,4 +70,17 @@ Service Worker 是一种独立于主线程之外的Javascript线程。它脱离�
 
 Service Worker 的生命周期包括install、active、working三个阶段。一旦Service Worker 被install，它将始终存在，只会在active与working之间切换，除非我们主动终止它。这是可以用来实现离线存储的重要先决条件。
 
+
+###  Http Cache
+
+HTTP缓存分为**强缓存和协商缓存**。优先级较高的是强缓存，在命中强缓存失败的情况下，才会走协商缓存。
+
+- **强缓存**
+
+**强缓存**是利用http头中的`Expires和Cache-Control`两个字段来控制的。强缓存中，当请求再次发出时，浏览器会根据其中的`expire和cache-control`判断目标资源是否“命中”强缓存，若命中则直接从缓存中获取资源，**不会再与服务端发生通信**。
+
 > 有待补充
+
+### 参考
+
+- 《前端性能优化原理与实践》 修言
