@@ -79,6 +79,31 @@ HTTP缓存分为**强缓存和协商缓存**。优先级较高的是强缓存，
 
 **强缓存**是利用http头中的`Expires和Cache-Control`两个字段来控制的。强缓存中，当请求再次发出时，浏览器会根据其中的`expire和cache-control`判断目标资源是否“命中”强缓存，若命中则直接从缓存中获取资源，**不会再与服务端发生通信**。
 
+**强缓存的实现: 从expires到cache-control**
+
+之前实现强缓存，过去我们都是使用`expires`。当服务器返回响应时，在`Response Headers`中将过期时间写入expires字段。比如下面：
+
+```javascript
+expires: Wed, 11 Sep 2019 16:12:18 GMT
+```
+
+expires是一个时间戳。如果我们试图再次向服务器请求资源，浏览器会先对比本地时间和expires的时间戳，如果本地时间小于expires设定的过期时间，那么就直接去缓存中取这个资源。
+
+不过,expires是有问题的，它的最大问题在于对`本地时间`的依赖。如果服务端和客户端的时间设置可能不同，或者我直接手动去把客户端的时间改掉，那么expires将无法达到我们的预期。
+
+HTTP1.1新增的`Cache-Control`字段能够避免上面expires带来的局限性。`cache-control`可以视为`expires`的完全替代方案。在当前的前端实践中，我们继续使用expires的唯一目的就是向下兼容。
+
+```javascript
+cache-control: max-age=31536000
+```
+上面中，`Cache-control`中，我们是通过**max-age**来控制资源的有效期。max-age不是一个时间戳，而是一个时间长度。以秒为单位。
+
+`Cache-Control`相对于`expires`更加准确，它的优先级也更高。当`Cache-Control`与`expires`同时出现时，要以`Cache-Control`为准。
+
+- **协商缓存：浏览器与服务器合作之下的缓存策略**
+
+协商缓存依赖于服务端与浏览器之间的通信。
+
 > 有待补充
 
 ### 参考
