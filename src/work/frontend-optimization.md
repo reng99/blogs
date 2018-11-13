@@ -116,6 +116,14 @@ cache-control: max-age=31536000
 Last-Modified: Fri, 27 Oct 2017 06:35:57 GMT
 ```
 
+随后我们每次请求时，会带上一个叫`If-Modified-Since`的时间戳字段，它的值正是上一次response返回给它的`last-modified`值：
+
+```bash
+If-Modified-Since: Fri, 27 Oct 2017 06:35:57 GMT
+```
+
+服务器收到这个时间戳后，会比对该时间戳和资源在服务器上的最后修改时间是否是一致，从而判断资源是否发生了变化。如果发生了变化，就会返回一个完整的响应内容，并在`Response Headers`中添加新的`Last-Modified`值；否者返回304响应，`Response Headers`不会再添加`Last-Modified`字段。
+
 > 有待补充...
 
 ### 参考
