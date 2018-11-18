@@ -23,6 +23,10 @@
 |掘金|[链接](https://juejin.im/user/5a00493f5188252c224d6475)|
 |知乎|[链接](https://www.zhihu.com/people/reng99/activities)|
 
+### 赞助
+
+[捐助传送门](./src/other/donate.md)
+
 
 ### 许可证
 
