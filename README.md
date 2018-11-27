@@ -1,28 +1,26 @@
-## 诗和远方
+### 诗和远方
+
+> 前言
 
 本仓库[@嘉明](http://reng99.cc/about/)存放的是2018年10月21号之后的博文信息，旧版的博文请戳[嘉明的旧版博客](https://github.com/reng99/reng99.github.io)。本仓库的内容仅代表个人的观点，如有雷同甚是荣幸～
 
 
-### 相关内容
+> 目录
 
-仓库是对生活、学习和工作做总结归纳，详情请戳对应内容进入了解 @~@
+**2018年11月**
 
-**翻译**
+- [译-需要学习的是编程，而不是编程语言](https://github.com/reng99/blogs/issues/1)
 
-- [需要学习的是编程，而不是编程语言](https://github.com/reng99/blogs/issues/1)
+> 社交
 
-### 相关社交
+|:kissing_heart:|:grin:|:kissing_smiling_eyes:|
+|:-:|:-:|:-:|
+|[微博](https://weibo.com/reng99)|[GitHub](https://github.com/reng99)|[掘金](https://juejin.im/user/5a00493f5188252c224d6475)|
 
-- [微博](https://weibo.com/reng99)
-
-- [GitHub](https://github.com/reng99)
-
-- [掘金](https://juejin.im/user/5a00493f5188252c224d6475)
-
-### 赞助
+> 赞助
 
 [捐助传送门](./src/other/donate.md)
 
-### 许可证
+> 许可证
 
 MIT CopyRight JiaMing 2018-
