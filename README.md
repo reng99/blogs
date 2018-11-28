@@ -22,4 +22,4 @@
 
 > 许可证
 
-MIT CopyRight JiaMing 2018-
+[MIT](./LICENSE) CopyRight JiaMing 2018-
