@@ -6,6 +6,10 @@
 
 > 目录
 
+**2018年12月**
+
+- [一步步实现人人对战五子棋游戏【canvas版】](https://github.com/reng99/blogs/issues/3)
+
 **2018年11月**
 
 - [译-需要学习的是编程，而不是编程语言](https://github.com/reng99/blogs/issues/1)
