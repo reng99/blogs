@@ -20,7 +20,7 @@
 
 **2018年12月**
 
-- [【译】类比餐厅桌前就餐来解释前端和后端](https://github.com/reng99/blogs/issues/3)
+- [【译】类比餐厅桌前就餐来解释前端和后端](https://github.com/reng99/blogs/issues/4)
 
 - [一步步实现人人对战五子棋游戏【canvas版】](https://github.com/reng99/blogs/issues/3)
 
