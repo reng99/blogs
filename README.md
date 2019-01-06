@@ -20,7 +20,7 @@
 
 **2019年01月**
 
--[算法的时间复杂度](https://github.com/reng99/blogs/issues/5)
+- [算法的时间复杂度](https://github.com/reng99/blogs/issues/5)
 
 **2018年12月**
 
