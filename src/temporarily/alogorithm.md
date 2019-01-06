@@ -2,7 +2,9 @@
 
 ### 前言
 
-本博文是单纯的概念和相关的demo解说，如遇到改变不清晰但想往下读的同学，要谷歌起来了。
+作为一个非典型的前端开发人员，我们要懂得一些算法的概念，并将其理论知识引入日常的开发中，提高日常的开发效率和提升产品的体验。
+
+本篇博文的概念偏多，模糊的点，有兴趣的谷歌起来啦！
 
 ### 相关概念
 
@@ -47,33 +49,33 @@
 
 先来看下图，对各个时间复杂度认下脸：
 
-![comparision_computational_cmplexity](https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Comparison_computational_complexity.svg/1280px-Comparison_computational_complexity.svg.png)
+![comparision_computational_cmplexity](https://user-images.githubusercontent.com/22773901/50737890-c7a49080-1208-11e9-84e1-95d456d7ce14.png)
 
 **O(1)常数阶**
 
 ```javascript
 let sum = 0,
-    n = 100; // 执行一次
-sum = (1+n)*n/2; // 执行一次
+    n = 100; // 执行一次
+sum = (1+n)*n/2; // 执行一次
 console.log(sum); // 执行一次 
 ```
 
-上面算法的运行次数的函数是`f(n)=3`，则有`O(f(n) = 3)即O(3)`， 常数项用常数1表示，则最终的表示法为`O(1)`，我们称之为常数阶。
+上面算法的运行次数的函数是`f(n)=3`，则有`O(f(n) = 3)即O(3)`， 常数项用常数1表示，则最终的表示法为`O(1)`，我们称之为常数阶。
 
 **O(n)线性阶**
 
 线性阶主要分析循环结构的运行情况，如下：
 
 ```javascript
-for(let i = 0; i < n; i++){
+for(let i = 0; i < n; i++){
     // 时间复杂度O(1)的算法
     ...
 }
 ```
 
-上面算法循环体中的代码执行了n次，因此时间复杂度是`O(n)`。
+上面算法循环体中的代码执行了n次，因此时间复杂度是`O(n)`。
 
-**O(log n)对数阶**
+**O(logn)对数阶**
 
 ```javascript
 let number = 1;
@@ -84,10 +86,10 @@ while(number < n){
 }
 ```
 
-上面的代码，随着number每次乘以2后，都会越来约接近n，当number不小于n时候就会退出循环。假设循环的次数为x，则由`2^x=n得出x=log₂n`，因此得到这个算法的时间复杂度为`O(logn)`。
+上面的代码，随着number每次乘以2后，都会越来约接近n，当number不小于n时候就会退出循环。假设循环的次数为x，则由`2^x=n得出x=log₂n`，因此得到这个算法的时间复杂度为`O(logn)`。
 
-**O(n²)平方阶**
-
+**O(n²)平方阶**
+
 平凡阶一般出现在嵌套的循环中，如下：
 
 ```javascript
@@ -111,7 +113,7 @@ n+(n-1)+(n-2)+(n-3)+……+1
 =n²/2+n/2
 ```
 
-根据上面说的推导大O阶的规则，得到上面这段代码的时间复杂度是`O(n²)`
+根据上面说的推导大O阶的规则，得到上面这段代码的时间复杂度是`O(n²)`
 
 **其他常见复杂度**
 
@@ -127,9 +129,14 @@ f(n)=(√n时，时间复杂度为O(√n)，可以称为平方根阶。
 
 ### 时间复杂度比较
 
-嗯，我们再回头看下下面的图片：
+嗯，我们再回头看下下面的图片：
 
-![comparision_computational_cmplexity](https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Comparison_computational_complexity.svg/1280px-Comparison_computational_complexity.svg.png)
+![comparision_computational_cmplexity](https://user-images.githubusercontent.com/22773901/50737890-c7a49080-1208-11e9-84e1-95d456d7ce14.png)
+
+
+通过图片直观的体现，能够得到常用的时间复杂度按照消耗时间的大小从小到大排序依次是：
+
+`O(1)<O(logn)<O(n)<O(nlogn)<O(n²)<O(n³)<O(2ⁿ)<O(n!)`
 
 ### 参考
 
