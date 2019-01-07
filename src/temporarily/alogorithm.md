@@ -143,3 +143,5 @@ f(n)=(√n时，时间复杂度为O(√n)，可以称为平方根阶。
 http://bigocheatsheet.com/
 
 刘望舒 -- https://juejin.im/post/5bbd79a0f265da0aa74f46a6
+
+李斌 -- https://zhuanlan.zhihu.com/p/32135157
