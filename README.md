@@ -1,3 +1,8 @@
+[![issues](https://img.shields.io/github/issues/reng99/blogs.svg)](https://github.com/reng99/blogs/issues)
+[![forks](https://img.shields.io/github/forks/reng99/blogs.svg)](https://github.com/reng99/blogs/network/members)
+[![star](https://img.shields.io/github/stars/reng99/blogs.svg)](https://github.com/reng99/blogs/stargazers)
+[![license](https://img.shields.io/github/license/reng99/blogs.svg)](https://github.com/reng99/blogs/blob/master/LICENSE)
+
 ### 嘉明的博客
 
 > 前言
