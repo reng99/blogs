@@ -47,6 +47,8 @@ CommonJS加载模块是同步的，所以只有加载完成才能执行后面的
 
 ### 关于AMD
 
+AMD(Asynchronous Module Definition) 异步模块定义。
+
 > 有待补充...
 
 
