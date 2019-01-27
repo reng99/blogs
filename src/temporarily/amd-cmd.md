@@ -15,13 +15,30 @@ CommonJS是服务端模块的规范，Node.js就是采用这种规范。
 eg:
 
 ```javascript
-# foobar.js
+// foobar.js
 
 let test = 123;
 
 function foobar(){
-	
+	this.foo = function (){
+        // do something ...
+    }
+
+    this.bar = function (){
+        // do somethind ...
+    }
 }
+
+// exports 对象上的方法和变量是公有的
+let foobar = new foobar();
+exports.foobar = foobar;
+```
+
+```javascript
+// require 方法默认读取js文件，所以可以省略js后缀
+let test = require('./foobar').foobar;
+
+test.bar();
 ```
 
 相关的参考链接： https://segmentfault.com/a/1190000004873947
