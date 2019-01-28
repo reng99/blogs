@@ -1,5 +1,7 @@
 javascript中写好条件语句的五个技巧
 
+![banner](https://scotch-res.cloudinary.com/image/upload/w_900,q_auto:good,f_auto/v1536994013/udpahiv8rqlemvz0x3wc.png)
+
 当用JavaScript来工作的时候，我们需要处理很多的条件判断，这里有五个小技巧能帮助你写出更好/更清晰的条件语句。
 
 **1. 多重判断中使用Array.includes**
@@ -365,3 +367,5 @@ function test() {
 让我们一起写出可读性更高的代码。我希望你能从这篇文章学到些新东西。
 
 这是全部内容。祝你编码愉快！
+
+> 原文 https://scotch.io/bar-talk/5-tips-to-write-better-conditionals-in-javascript
