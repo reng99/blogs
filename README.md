@@ -25,6 +25,10 @@
 
 - [【译】需要学习的是编程，而不是编程语言](https://github.com/reng99/blogs/issues/1)
 
+> 2019读过的纸质书
+
+- 《视觉捶》 推荐3颗星（5为满星）
+
 > 社交(欢迎来撩)
 
 |:kissing_heart:|:octocat:|:kissing_smiling_eyes:|
