@@ -13,7 +13,7 @@
 
 **2019年01月**
 
-- [【译】javascript中写好条件语句的五个技巧 ](https://github.com/reng99/blogs/issues/5)
+- [【译】javascript中写好条件语句的五个技巧 ](https://github.com/reng99/blogs/issues/6)
 
 - [算法的时间复杂度](https://github.com/reng99/blogs/issues/5)
 
