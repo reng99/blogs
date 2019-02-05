@@ -5,7 +5,25 @@
 ```bash
     .
     │
-    ├──
+    ├── 浏览器兼容的历史
+    │       ├── Netscape 于1995年发布JavaScript
+    │       └── 微软于1996年发布JScript
+    │
+    ├── JavaScript构成
+    │       ├── ECMAScript(核心)
+    │       ├── DOM(文档对象模型)
+    │       └── BOM(浏览器对象模型)
+    │
+    ├── [当前五大浏览器](https://www.kuyh.com/642.html)
+    │       ├── IE
+    │       ├── Firefox
+    │       ├── Chrome
+    │       ├── Safari
+    │       └── Opera
+    │
+    │
+    │
+    │
     │
     └──
 ```
