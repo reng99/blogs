@@ -35,11 +35,29 @@
     │       ├── 性能问题（周期性进行垃圾回收）
     │       └── 管理内存（解除引用，为执行中的代码只保留必要的数据）
     │
+    ├── [引用类型](https://www.cnblogs.com/guorange/p/6657765.html?utm_source=itdadao&utm_medium=referral)
+    │       ├── Object
+    │       ├── Array
+    │       ├── Date
+    │       ├── RegExp
+    │       ├── Function
+    │       ├── 基本包装类型（是基本类型也是引用类型）所以对应的基本类型值可以当作对象来访问
+    │       │       ├── Boolean
+    │       │       ├── Number
+    │       │       └── String
+    │       │
+    │       └── 当体内置对象
+    │               ├── Global对象
+    │               └── Math对象
     │
     │
+    ├── 函数length和prototype属性
+    │       ├── length（函数希望接收的命名参数的个数）
+    │       └── prototype（它是保存引用类型所有实例方法的真正所在）
     │
-    │
-    │
+    ├── [函数中的call()和apply()方法](https://www.cnblogs.com/phoebeyue/p/9216514.html)
+    │       ├── call 设置函数体内this的指向。参数传值(obj,arg1,arg2)
+    │       └── apply 设置函数体内this的指向。参数传值(obj,[arg1,arg2])
     │
     │
     │
