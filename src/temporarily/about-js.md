@@ -21,6 +21,24 @@
     │       ├── Safari
     │       └── Opera
     │
+    ├── ES5的数据类型
+    │       ├── 基本数据类型: Undefined,Null,Boolean,Number和String       
+    │       └── 复杂数据类型: Object
+    │
+    │
+    │
+    │
+    │
+    │
+    │
+    │
+    │
+    │
+    │
+    │
+    │
+    │
+    │
     │
     │
     │
