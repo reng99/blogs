@@ -59,6 +59,23 @@
     │       ├── call 设置函数体内this的指向。参数传值(obj,arg1,arg2)
     │       └── apply 设置函数体内this的指向。参数传值(obj,[arg1,arg2])
     │
+    ├── 对象属性类型（通过Object.defineProperty进行定义）
+    │       ├── 数据属性（[[Configurable]],[[Enumerable]],[[Writable]],[[Value]]）
+    │       └── 访问器属性（[[Configurable]],[[Enumerable]],[[Get]],[[Set]]）
+    │
+    ├── 创建对象
+    │       ├── 
+    │       ├── 
+    │       ├── 
+    │       ├── 
+    │
+    │
+    │
+    │
+    │
+    │
+    │
+    │
     │
     │
     │
