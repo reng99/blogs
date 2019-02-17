@@ -13,6 +13,8 @@
 
 **2019年02月**
 
+- [【译】2019年开始使用Typescript](https://github.com/reng99/blogs/issues/8)
+
 - [【译】框架与库的差异](https://github.com/reng99/blogs/issues/7)
 
 **2019年01月**
