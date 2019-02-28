@@ -11,7 +11,24 @@
 
 如果您想为本仓库出力，在此之前请阅读[贡献指南](./CONTRIBUTING.md)。您贡献的博文如果被采用，将在下面的博文目录中展示出来，形式是`标题--源自某某`，默认是自己发的博文。
 
+> 社交(欢迎来撩)
+
+|:kissing_heart:|:octocat:|:kissing_smiling_eyes:|:see_no_evil:|:postbox:|
+|:-:|:-:|:-:|:-:|:-:|
+|[微博](https://weibo.com/reng99)|[GitHub](https://github.com/reng99)|[掘金](https://juejin.im/user/5a00493f5188252c224d6475)|pangjiaming007【微信号】|reng99@outlook.com【邮箱】|
+
+> 赞助&关于我(欢迎来撩)
+
+|:heartbeat:|:running:|
+|:-:|:-:|
+|[捐助传送门](./src/other/donate.md)|[关于我传送门](./src/other/resume.md)|
+
+
 > 博文目录
+
+**2019年03月**
+
+> 有待补充
 
 **2019年02月**
 
@@ -38,18 +55,6 @@
 > 2019读过的纸质书
 
 - 《视觉锤》 推荐3颗星（5为满星）
-
-> 社交(欢迎来撩)
-
-|:kissing_heart:|:octocat:|:kissing_smiling_eyes:|
-|:-:|:-:|:-:|
-|[微博](https://weibo.com/reng99)|[GitHub](https://github.com/reng99)|[掘金](https://juejin.im/user/5a00493f5188252c224d6475)|
-
-> 赞助&关于我(欢迎来撩)
-
-|:heartbeat:|:running:|
-|:-:|:-:|
-|[捐助传送门](./src/other/donate.md)|[关于我传送门](./src/other/resume.md)|
 
 > 许可证
 
