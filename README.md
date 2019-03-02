@@ -28,7 +28,7 @@
 
 **2019年03月**
 
-- [【译】20个更有效地使用谷歌搜素的技巧](https://github.com/reng99/blogs/issues/9)
+- [【译】20个更有效地使用谷歌搜索的技巧](https://github.com/reng99/blogs/issues/9)
 
 **2019年02月**
 
