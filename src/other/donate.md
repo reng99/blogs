@@ -6,6 +6,8 @@
 
 ![wechatpay](./imgs/wechatpay.jpg) ![alipay](./imgs/alipay.jpg)
 
+> 暂无
+
 |序号|渠道|时间|昵称|金额|
 |:---:|:---:|:---:|:---:|:---:|
 |#1|-|-|-|-|

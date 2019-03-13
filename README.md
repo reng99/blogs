@@ -21,7 +21,7 @@
 
 |:heartbeat:|:running:|
 |:-:|:-:|
-|[捐助传送门](./src/other/donate.md)|[关于我传送门](./src/other/resume.md)|
+|[捐助](./src/other/donate.md)|[关于](./src/other/resume.md)|
 
 
 > 博文目录
