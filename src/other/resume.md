@@ -4,6 +4,6 @@
 
 看者想交个朋友的话，可以微信扫下下面的二维码加好友。如果加，请备注下姓名+地区，比如`嘉明-广州`（我相信你填写的信息是真的）！
 
-<div align=center>![wechat](./imgs/wechat.png)
+<div style="align: center">![wechat](./imgs/wechat.png)</div>
 
 
