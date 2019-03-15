@@ -15,25 +15,25 @@
     </a>
 </p>
 
-<center><h3>前言<h3></center>
+<p align="center"><h3>前言<h3></p>
 
-<center>建立本博文仓库的目的是<b>彼此交流，共同成长</b>。</center>
-<center>如果您想为本仓库出力，在此之前请阅读<a href="./CONTRIBUTING.md">贡献指南</a>。您贡献的博文如果被采用，将在下面的博文目录中展示出来，形式是<b>标题--源自某某</b>，默认是自己发的博文。</center>
+<p align="center">建立本博文仓库的目的是<b>彼此交流，共同成长</b>。</p>
+<p align="center">如果您想为本仓库出力，在此之前请阅读<a href="./CONTRIBUTING.md">贡献指南</a>。您贡献的博文如果被采用，将在下面的博文目录中展示出来，形式是<b>标题--源自某某</b>，默认是自己发的博文。</p>
 
-<center><h3>社交--欢迎来撩</h3></center>
+<p align="center"><h3>社交--欢迎来撩</h3></p>
 
-<center>
+<p align="center">
     💓<a href="./src/other/donate.md">捐助杯星巴克</a>
     🏃<a href="./src/other/resume.md">关于嘉明</a>
-</center>
-<center>
+</p>
+<p align="center">
     1⃣️<a href="https://weibo.com/reng99">微博</a>
     2⃣️<a href="https://github.com/reng99">GITHUB</a>
     3⃣️<a href="https://juejin.im/user/5a00493f5188252c224d6475">掘金</a>
     4⃣️<a href="./src/other/resume.md">微信</a>
-</center>
+</p>
 
-<center><h3>博文目录</h3></center>
+<center align="center"><h3>博文目录</h3></center>
 
 <center><b>2019-03</b></center>
 <center>
@@ -69,15 +69,10 @@
 </center>
 
 <center><h3>2019读过的书</h3></center>
-
 <center>
     <p>《穷爸爸富爸爸全集》 推荐3.5颗星（5为满星）</p>
+    <p>《视觉锤》 推荐3.5颗星（5为满星）</p>
 </center>
 
-- 
-
-- 《视觉锤》 推荐3.5颗星（5为满星）
-
-> 许可证
-
-[MIT](./LICENSE) CopyRight JiaMing 2018~至今
+<center><h3>许可证</h3></center>
+<center><p><a href="./LICENSE">MIT </a>CopyRight reng99 since 2018-11</p></center> 
