@@ -4,9 +4,9 @@
 
 > 赞助的人儿捐助的时候请备注下哦，我会在下面更新捐助的人名 @～@
 
-<div style="align: center">![wechatpay](./imgs/wechatpay.jpg)</div> 
+![wechatpay](./imgs/wechatpay.jpg){ style="display: block; margin: 0 auto" }
 
-<div style="align: center">![alipay](./imgs/alipay.jpg)</div>
+![alipay](./imgs/alipay.jpg){ style="display: block; margin: 0 auto" }
 
 > 暂无
 
