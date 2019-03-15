@@ -15,12 +15,12 @@
     </a>
 </p>
 
-<p align="center"><h3>前言<h3></p>
+<h3 align="center">前言<h3>
 
 <p align="center">建立本博文仓库的目的是<b>彼此交流，共同成长</b>。</p>
 <p align="center">如果您想为本仓库出力，在此之前请阅读<a href="./CONTRIBUTING.md">贡献指南</a>。您贡献的博文如果被采用，将在下面的博文目录中展示出来，形式是<b>标题--源自某某</b>，默认是自己发的博文。</p>
 
-<p align="center"><h3>社交--欢迎来撩</h3></p>
+<h3 align="center">社交--欢迎来撩</h3>
 
 <p align="center">
     💓<a href="./src/other/donate.md">捐助杯星巴克</a>
@@ -33,9 +33,10 @@
     4⃣️<a href="./src/other/resume.md">微信</a>
 </p>
 
-<center align="center"><h3>博文目录</h3></center>
+<h3 align="center">博文目录</h3>
 
-<center><b>2019-03</b></center>
+<p align="center"><b>2019-03</b></p>
+
 <center>
     <p>预告：《数据结构和算法（一）》预计月底给出</p>
     <p><a href="https://github.com/reng99/blogs/issues/11">【译】JS的执行上下文和环境栈是什么？</a></p>
