@@ -1,66 +1,80 @@
-### 嘉明的博客
+<p align="center"><img src="./src/imgs/banner.png" alt="banner" /></p>
 
-[![issues](https://img.shields.io/github/issues/reng99/blogs.svg)](https://github.com/reng99/blogs/issues)
-[![forks](https://img.shields.io/github/forks/reng99/blogs.svg)](https://github.com/reng99/blogs/network/members)
-[![star](https://img.shields.io/github/stars/reng99/blogs.svg)](https://github.com/reng99/blogs/stargazers)
-[![license](https://img.shields.io/github/license/reng99/blogs.svg)](https://github.com/reng99/blogs/blob/master/LICENSE)
+<p align="center">
+    <a href="https://github.com/reng99/blogs/issues">
+        <img src="https://img.shields.io/github/issues/reng99/blogs.svg" alt="issues"/>
+    </a>
+    <a href="https://github.com/reng99/blogs/network/members">
+        <img src="https://img.shields.io/github/forks/reng99/blogs.svg" alt="forks"/>
+    </a>
+    <a href="https://github.com/reng99/blogs/stargazers">
+        <img src="https://img.shields.io/github/stars/reng99/blogs.svg" alt="star"/>
+    </a>
+    <a href="https://github.com/reng99/blogs/blob/master/LICENSE">
+        <img src="https://img.shields.io/github/license/reng99/blogs.svg" alt="license"/>
+    </a>
+</p>
 
-> 前言
+<center><h3>前言<h3></center>
 
-建立本博文仓库的目的是**彼此交流，共同成长**。
+<center>建立本博文仓库的目的是<b>彼此交流，共同成长</b>。</center>
+<center>如果您想为本仓库出力，在此之前请阅读<a href="./CONTRIBUTING.md">贡献指南</a>。您贡献的博文如果被采用，将在下面的博文目录中展示出来，形式是<b>标题--源自某某</b>，默认是自己发的博文。</center>
 
-如果您想为本仓库出力，在此之前请阅读[贡献指南](./CONTRIBUTING.md)。您贡献的博文如果被采用，将在下面的博文目录中展示出来，形式是`标题--源自某某`，默认是自己发的博文。
+<center><h3>社交--欢迎来撩</h3></center>
 
-> 社交(欢迎来撩)
+<center>
+    💓<a href="./src/other/donate.md">捐助杯星巴克</a>
+    🏃<a href="./src/other/resume.md">关于嘉明</a>
+</center>
+<center>
+    1⃣️<a href="https://weibo.com/reng99">微博</a>
+    2⃣️<a href="https://github.com/reng99">GITHUB</a>
+    3⃣️<a href="https://juejin.im/user/5a00493f5188252c224d6475">掘金</a>
+    4⃣️<a href="./src/other/resume.md">微信</a>
+</center>
 
-|:kissing_heart:|:octocat:|:kissing_smiling_eyes:|:see_no_evil:|:postbox:|
-|:-:|:-:|:-:|:-:|:-:|
-|[微博](https://weibo.com/reng99)|[GitHub](https://github.com/reng99)|[掘金](https://juejin.im/user/5a00493f5188252c224d6475)|pangjiaming007【微信号】|reng99@outlook.com【邮箱】|
+<center><h3>博文目录</h3></center>
 
-> 赞助&关于我(欢迎来撩)
+<center><b>2019-03</b></center>
+<center>
+    <p>预告：《数据结构和算法（一）》预计月底给出</p>
+    <p><a href="https://github.com/reng99/blogs/issues/11">【译】JS的执行上下文和环境栈是什么？</a></p>
+    <p><a href="https://github.com/reng99/blogs/issues/10">【译】编程不容易</a></p>
+    <p><a href="https://github.com/reng99/blogs/issues/9">【译】20个更有效地使用谷歌搜索的技巧</a></p>
+</center>
 
-|:heartbeat:|:running:|
-|:-:|:-:|
-|[捐助](./src/other/donate.md)|[关于](./src/other/resume.md)|
+<center><b>2019-02</b></center>
+<center>
+    <p><a href="https://github.com/reng99/blogs/issues/8">【译】2019年开始使用Typescript</a></p>
+    <p><a href="https://github.com/reng99/blogs/issues/7">【译】框架与库的差异</a></p>
+</center>
 
+<center><b>2019-01</b></center>
+<center>
+    <p><a href="https://github.com/reng99/blogs/issues/6">【译】javascript中写好条件语句的五个技巧</a></p>
+    <p><a href="https://github.com/reng99/blogs/issues/5">算法的时间复杂度</a></p>
+</center>
 
-> 博文目录
+---
 
-**2019年03月**
+<center><b>2018-12</b></center>
+<center>
+    <p><a href="https://github.com/reng99/blogs/issues/4">【译】类比餐厅桌前就餐来解释前端和后端</a></p>
+    <p><a href="https://github.com/reng99/blogs/issues/3">一步步实现人人对战五子棋游戏【canvas版】</a></p>
+</center>
 
-- 预告：下一篇是《数据结构和算法（一）》预计月底给出
+<center><b>2018-11</b></center>
+<center>
+    <p><a href="https://github.com/reng99/blogs/issues/1">【译】需要学习的是编程，而不是编程语言</a></p>
+</center>
 
-- [【译】JS的执行上下文和环境栈是什么？](https://github.com/reng99/blogs/issues/11)
+<center><h3>2019读过的书</h3></center>
 
-- [【译】编程不容易](https://github.com/reng99/blogs/issues/10)
+<center>
+    <p>《穷爸爸富爸爸全集》 推荐3.5颗星（5为满星）</p>
+</center>
 
-- [【译】20个更有效地使用谷歌搜索的技巧](https://github.com/reng99/blogs/issues/9)
-
-**2019年02月**
-
-- [【译】2019年开始使用Typescript](https://github.com/reng99/blogs/issues/8)
-
-- [【译】框架与库的差异](https://github.com/reng99/blogs/issues/7)
-
-**2019年01月**
-
-- [【译】javascript中写好条件语句的五个技巧 ](https://github.com/reng99/blogs/issues/6)
-
-- [算法的时间复杂度](https://github.com/reng99/blogs/issues/5)
-
-**2018年12月**
-
-- [【译】类比餐厅桌前就餐来解释前端和后端](https://github.com/reng99/blogs/issues/4)
-
-- [一步步实现人人对战五子棋游戏【canvas版】](https://github.com/reng99/blogs/issues/3)
-
-**2018年11月**
-
-- [【译】需要学习的是编程，而不是编程语言](https://github.com/reng99/blogs/issues/1)
-
-> 2019读过的书
-
-- 《穷爸爸富爸爸全集》 推荐3.5颗星（5为满星）
+- 
 
 - 《视觉锤》 推荐3.5颗星（5为满星）
 
