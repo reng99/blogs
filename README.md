@@ -19,7 +19,7 @@
 <p align="center">如果您想为本仓库出力，在此之前请阅读<a href="./CONTRIBUTING.md">贡献指南</a>。</p>
 <p align="center">您贡献的博文若被采用，将在下面的博文目录中展示出来，形式是<b>标题--源自某某</b>，默认是自己发的博文。</p>
 
-<h4 align="center">*社交--欢迎来撩*</h4>
+<h4 align="center">* 社交--欢迎来撩 *</h4>
 
 <p align="center">
     💓<a href="./src/other/donate.md">捐助杯星巴克</a>
@@ -32,7 +32,7 @@
     4⃣️<a href="./src/other/resume.md">微信</a>
 </p>
 
-<h4 align="center">*博文目录*</h4>
+<h4 align="center">* 博文目录 *</h4>
 
 <p align="center"><b>2019-03</b></p>
 <p align="center">预告：《数据结构和算法（一）》预计月底给出</p>
@@ -48,8 +48,6 @@
 <p align="center"><a href="https://github.com/reng99/blogs/issues/6">【译】javascript中写好条件语句的五个技巧</a></p>
 <p align="center"><a href="https://github.com/reng99/blogs/issues/5">算法的时间复杂度</a></p>
 
----
-
 <p align="center"><b>2018-12</b></p>
 <p align="center"><a href="https://github.com/reng99/blogs/issues/4">【译】类比餐厅桌前就餐来解释前端和后端</a></p>
 <p align="center"><a href="https://github.com/reng99/blogs/issues/3">一步步实现人人对战五子棋游戏【canvas版】</a></p>
@@ -57,9 +55,9 @@
 <p align="center"><b>2018-11</b></center>
 <p align="center"><a href="https://github.com/reng99/blogs/issues/1">【译】需要学习的是编程，而不是编程语言</a></p>
 
-<h4 align="center">*2019读过的书(5为满星)*</h4>
+<h4 align="center">* 2019读过的书(5为满星) *</h4>
 <p align="center">《穷爸爸富爸爸全集》 推荐3.5颗星</p>
 <p align="center">《视觉锤》 推荐3.5颗星</p>
 
-<h4 align="center">*许可证*</h4>
+<h4 align="center">* 许可证 *</h4>
 <p align="center"><a href="./LICENSE">MIT </a>CopyRight reng99 since 2018-11</p>
