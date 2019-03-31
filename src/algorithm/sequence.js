@@ -73,7 +73,7 @@ class Sequence{
         for(let g = 0; g < this.gaps.length; ++g){
             for(let i = this.gaps[g]; i < numElements; ++i){
                 temp = this.arr[i];
-                for(j = i; j >= this.gaps[g] && this.arr[j - this.gaps[g]] > temp; j -= this.gaps[g]){ // 之前的已经拍好序的了
+                for(j = i; j >= this.gaps[g] && this.arr[j - this.gaps[g]] > temp; j -= this.gaps[g]){ // 之前的元素已经升序排好序的了
                     this.arr[j] = this.arr[j - this.gaps[g]];
                 }
                 this.arr[j] = temp; // 这里和上面的for循环是互换两个数据位置

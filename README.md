@@ -26,10 +26,11 @@
     🏃<a href="./src/other/resume.md">关于嘉明</a>
 </p>
 <p align="center">
-    1⃣️<a href="https://weibo.com/reng99">微博</a>
-    2⃣️<a href="https://github.com/reng99">GITHUB</a>
-    3⃣️<a href="https://juejin.im/user/5a00493f5188252c224d6475">掘金</a>
-    4⃣️<a href="./src/other/resume.md">微信</a>
+    1⃣️<a href="https://weibo.com/reng99">微博</a> 
+    2⃣️<a href="https://github.com/reng99">GITHUB</a> 
+    3⃣️<a href="https://juejin.im/user/5a00493f5188252c224d6475">掘金</a> 
+    4⃣️<a href="./src/other/resume.md">微信</a> 
+    5⃣️<a href="https://www.zhihu.com/people/reng99/activities">知乎</a> 
 </p>
 
 <h4 align="center">* 博文目录 *</h4>
