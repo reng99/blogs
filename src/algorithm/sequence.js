@@ -80,12 +80,37 @@ class Sequence{
             }
         }
     }
+
+    // 快速排序
+    quickSort(){
+        this.arr = this.quickAux(this.arr);
+    }
+
+    // aux函数 - 快排的辅助函数
+    quickAux(arr){
+        let numElements = arr.length;
+        if(numElements == 0){
+            return [];
+        }
+        let left = [],
+            right = [],
+            pivot = arr[0]; // 取数组的第一个元素作为基准值
+        for(let i = 1; i < numElements; i++){
+            if(arr[i] < pivot){
+                left.push(arr[i]);
+            }else{
+                right.push(arr[i]);
+            }
+        }
+        return this.quickAux(left).concat(pivot, this.quickAux(right));
+    }
 }
 
 let testBubbleArr = [12, 30, 6, 8, 4, 10, 9, 100, 30, 60], // 写死要排序的数组元素(⚠️注意：这里演示选择的数据结构是数组，其它的数组结构的有兴趣可以自己证明)
     testSelectionArr = [8, 10, 80, 9, 6, 5, 5, 80],
     testInsertionArr = [100, 80, 98, 2, 5, 80, 8, 60],
-    testShellArr = [6, 0, 2, 9, 3, 5, 8, 0, 5, 4];
+    testShellArr = [6, 0, 2, 9, 3, 5, 8, 0, 5, 4],
+    testQuickArr = [68, 80, 12, 80, 95, 70, 79, 27, 88, 93]; 
 
 let bubbleDemo = new Sequence(testBubbleArr);
 bubbleDemo.bubbleSort();
@@ -102,3 +127,7 @@ insertionDemo.toString(); // 2-5-8-60-80-80-98-100
 let shellDemo = new Sequence(testShellArr);
 shellDemo.shellSort();
 shellDemo.toString(); // 0-0-2-3-4-5-5-6-8-9
+
+let quickDemo = new Sequence(testQuickArr);
+quickDemo.quickSort();
+quickDemo.toString(); // 12-27-68-70-79-80-80-88-93-95
