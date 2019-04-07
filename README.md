@@ -36,7 +36,7 @@
 <h4 align="center">* 博文目录 *</h4>
 
 <p align="center"><b>2019-04</b></p>
-<p align="center"><a href="https://github.com/reng99/blogs/issues/15">《导师计划--数据结构和算法系列（下）》</a></p>
+<p align="center"><a href="https://github.com/reng99/blogs/issues/15">导师计划--数据结构和算法系列（下）</a></p>
 
 <p align="center"><b>2019-03</b></p>
 <p align="center"><a href="https://github.com/reng99/blogs/issues/14">导师计划--数据结构和算法系列（上）</a></p>
