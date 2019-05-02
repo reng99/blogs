@@ -36,6 +36,7 @@
 <h4 align="center">* 博文目录 *</h4>
 
 <p align="center"><b>2019-04</b></p>
+<p align="center"><a href="https://github.com/reng99/blogs/issues/18">【译】JavaScript中的Callbacks</a></p>
 <p align="center"><a href="https://github.com/reng99/blogs/issues/17">【译】如何开始CI</a></p>
 <p align="center"><a href="https://github.com/reng99/blogs/issues/16">【译】停止滥用div!HTML语义化介绍</a></p>
 <p align="center"><a href="https://github.com/reng99/blogs/issues/15">导师计划--数据结构和算法系列（下）</a></p>
