@@ -36,7 +36,7 @@
 <h4 align="center">* 博文目录 *</h4>
 
 <p align="center"><b>2019-05</b></p>
-<p align="center"><a href="https://github.com/reng99/blogs/issues/19">【译】JavaScript中的async/await</a></p>
+<p align="center"><a href="https://github.com/reng99/blogs/issues/20">【译】JavaScript中的async/await</a></p>
 <p align="center"><a href="https://github.com/reng99/blogs/issues/19">【译】JavaScript中的Promises</a></p>
 <p align="center"><a href="https://github.com/reng99/blogs/issues/18">【译】JavaScript中的Callbacks</a></p>
 
