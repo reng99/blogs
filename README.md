@@ -4,9 +4,6 @@
     <a href="https://github.com/reng99/blogs/issues">
         <img src="https://img.shields.io/github/issues/reng99/blogs.svg" alt="issues"/>
     </a>
-    <a href="https://github.com/reng99/blogs/network/members">
-        <img src="https://img.shields.io/github/forks/reng99/blogs.svg" alt="forks"/>
-    </a>
     <a href="https://github.com/reng99/blogs/stargazers">
         <img src="https://img.shields.io/github/stars/reng99/blogs.svg" alt="star"/>
     </a>
