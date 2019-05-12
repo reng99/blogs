@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport"/>
+    <title>opacity保存图片的骚操作</title>
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+	<div id="html2canvas">
+		<div class="btn-shot">点击截取</div>
+		<div id="mask"></div>
+		<div id="shotarea" class="materail">
+			<img src="./imgs/mother_day_01.jpg" alt="01" class="img_bg">
+			<img src="./imgs/mother_day_02.jpg" alt="02" class="img_bg">
+			<img src="./imgs/mother_day_03.jpg" alt="03" class="img_bg">
+			<img src="./imgs/mother_day_04.jpg" alt="04" class="img_bg">
+			<img src="./imgs/mother_day_05.jpg" alt="05" class="img_bg">
+			<div id="qrcode" style="width:100px; height:100px; margin-top:15px;"></div>
+		</div>
+		<div id="generate" class="generate">
+			<div id="shotresult"></div>
+			<div class="hint">长按图片保存</div>
+		</div>
+
+		<!-- 使用canvas做截图的中转 -->
+		<canvas id="canvas"></canvas>
+		<div id="toast" class="toast">正在生成中...</div>
+	</div>
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="http://static.runoob.com/assets/qrcode/qrcode.min.js"></script>
+	<script type="text/javascript" src="./js/html2canvas.min.js"></script>
+	<script>
+		var qrcode = new QRCode(document.getElementById("qrcode"), {
+			text: "https://github.com/reng99/blogs",
+			width : 160,
+			height : 160
+		});
+	</script>
+	<script src='./js/index.js'></script>
+</body>
+</html>
