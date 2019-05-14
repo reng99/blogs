@@ -8,7 +8,7 @@
         <img src="https://img.shields.io/github/stars/reng99/blogs.svg" alt="star"/>
     </a>
     <a href="https://github.com/reng99/blogs/network/members">
-        <img src="https://img.shields.io/github/forks/reng99/blogs.svg" alt="star"/>
+        <img src="https://img.shields.io/github/forks/reng99/blogs.svg" alt="forks"/>
     </a>
     <a href="https://github.com/reng99/blogs/blob/master/LICENSE">
         <img src="https://img.shields.io/github/license/reng99/blogs.svg" alt="license"/>
