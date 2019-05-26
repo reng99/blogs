@@ -75,6 +75,7 @@
 <p align="center"><a href="https://github.com/reng99/blogs/issues/1">【译】需要学习的是编程，而不是编程语言</a></p>
 
 <h4 align="center">* 2019读过的书(5为满星) *</h4>
+<p align="center">《在你身边 为你设计》 推荐4颗星</p>
 <p align="center">《做人做到位》 推荐3颗星</p>
 <p align="center">《穷爸爸富爸爸全集》 推荐3.5颗星</p>
 <p align="center">《视觉锤》 推荐3.5颗星</p>
