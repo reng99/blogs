@@ -37,6 +37,7 @@
 
 <p align="center"><b>2019-06</b></p>
 <p align="center">[预告]手写一个promise</p>
+<p align="center"><a href="https://github.com/reng99/blogs/issues/27">JavaScript的数据类型及判断</a></p>
 
 <p align="center"><b>2019-05</b></p>
 <p align="center"><a href="https://github.com/reng99/blogs/issues/26">移动端网页调试</a></p>
