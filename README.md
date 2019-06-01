@@ -35,9 +35,10 @@
 
 <h4 align="center">* 博文目录 *</h4>
 
-<p align="center"><b>2019-05</b></p>
-<p align="center"></p>
+<p align="center"><b>2019-06</b></p>
 <p align="center">[预告]手写一个promise</p>
+
+<p align="center"><b>2019-05</b></p>
 <p align="center"><a href="https://github.com/reng99/blogs/issues/26">移动端网页调试</a></p>
 <p align="center"><a href="https://github.com/reng99/blogs/issues/25">【译】发布你自己的npm包</a></p>
 <p align="center"><a href="https://github.com/reng99/blogs/issues/24">【译】怎么写一个JavaScript Promise</a></p>
