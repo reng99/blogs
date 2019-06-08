@@ -5,4 +5,4 @@
 ### 目录
 
 - [谁养鱼？](./who_feed_fish.md)
-- [帽子的颜色](./color_of_hat.md)
+- [帽子的颜色?](./color_of_hat.md)
