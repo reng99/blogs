@@ -40,6 +40,7 @@
 <h4 align="center">* 博文目录 *</h4>
 
 <p align="center"><b>2019-06</b></p>
+<p align="center"><a href="https://github.com/reng99/blogs/issues/30">玩玩微信小程序（多图）</a></p>
 <p align="center"><a href="https://github.com/reng99/blogs/issues/29">谈谈JavaScript中的call、apply和bind</a></p>
 <p align="center"><a href="https://github.com/reng99/blogs/issues/28">谈谈JavaScript中装箱和拆箱</a></p>
 <p align="center"><a href="https://github.com/reng99/blogs/issues/27">JavaScript的数据类型及判断</a></p>
