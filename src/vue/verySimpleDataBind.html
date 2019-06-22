@@ -1,0 +1,26 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>超简单的数据绑定例子</title>
+</head>
+<body>
+    <input type="text" id="a" value="test">
+    <p id='b'></p>
+    <script>
+        var obj = {}
+        Object.defineProperty(obj, 'name', {
+            configurable: true,
+            enumerable: true,
+            set: function(newValue){
+                document.getElementById('a').value = newValue;
+                document.getElementById('b').innerHTML = newValue
+            }
+        })
+        document.addEventListener('keyup', function(e){
+            obj.name = e.target.value;
+        })
+    </script>
+</body>
+</html>
