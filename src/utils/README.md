@@ -7,3 +7,5 @@
 - [模拟字符串的indexOf方法](./imitate_string_indexof.md)
 
 - [jsonp案例](./jsonp/README.md)
+
+- [cors案例](./cors/README.md)
