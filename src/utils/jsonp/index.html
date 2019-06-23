@@ -1,0 +1,33 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>jsonp</title>
+</head>
+<body>
+    <h1>jsonp</h1>
+    <!-- <script>
+        function test(data){
+            conosle.log(data.name);
+        };
+    </script>
+    <script src="http://127.0.0.1:8888/jsonp?callback=test"></script> -->
+    <!-- 根据一个url动态创建script标签 -->
+    <script>
+        function addScriptTag(src) {
+            var script = document.createElement('script');
+            script.setAttribute('type', 'text/javascript');
+            script.src = src;
+            document.body.appendChild(script);
+        }
+        // 跨域请求
+        window.onload = function() {
+            addScriptTag('http://127.0.0.1:8888/jsonp?callback=sayHello')
+        }
+        function sayHello(data) {
+            console.log(data);
+        }
+    </script>
+</body>
+</html>
