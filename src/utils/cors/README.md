@@ -1,6 +1,6 @@
 ## CORS案例
 
-CORS是**跨域资源共享（Cross-origin resource sharing）**的简称。它允许浏览器向跨源（协议 + 域名 + 端口）服务器，发出`XMLHttpRequest`请求，从而克服`AJAX`只能同源使用的限制。
+CORS是**跨域资源共享**（Cross-origin resource sharing）的简称。它允许浏览器向跨源（协议 + 域名 + 端口）服务器，发出`XMLHttpRequest`请求，从而克服`AJAX`只能同源使用的限制。
 
 CORS的关键点是设置`Access-Control-Allow-Origin`的值。
 
