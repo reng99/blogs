@@ -11,3 +11,5 @@
 - [cors案例](./cors/)
 
 - [模拟call, apply和bind](./imitate_call_apply_bind.md)
+
+- [简易版promise](./simple_promise.md)
