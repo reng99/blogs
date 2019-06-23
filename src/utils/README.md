@@ -9,3 +9,5 @@
 - [jsonp案例](./jsonp/)
 
 - [cors案例](./cors/)
+
+- [模拟call, apply和bind](./imitate_call_apply_bind.md)
