@@ -13,3 +13,5 @@
 - [模拟call, apply和bind](./imitate_call_apply_bind.md)
 
 - [简易版promise](./simple_promise.md)
+
+- [对象深拷贝](./obj_deep_clone.md)
