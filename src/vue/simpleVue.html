@@ -1,0 +1,301 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>简单版的vue</title>
+    <style>
+        #app{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <div id="app">
+        <h2>{{title}}</h2>
+        <input type="text" v-model="name">
+        <h1>{{name}}</h1>
+        <button v-on:click="clickMe">click me!</button>
+    </div>
+    <script>
+
+        // Vuev构造函数
+        function Vue(options) {
+            var self = this; // 实例的对象赋值，防止后期对对象的更改
+            this.data = options.data;
+            this.methods = options.methods;
+
+            // 为每个对象添加set和get，方便监听
+            Object.keys(this.data).forEach(function(key) {
+                self.proxyKeys(key);
+            });
+
+            // 监听数据的变化
+            observe(this.data);
+            // 进行指令的编译
+            new Compile(options.el, this);
+
+            options.mounted.call(this); // 所有事情处理好后执行mounted函数
+        }
+
+        // 对data对象添加set和get，方便数据的监听
+        Vue.prototype = {
+            sayHello: function(){
+                console.log('reng')
+            },
+            // constructor: Vue,
+            proxyKeys: function(key) {
+                var self = this;
+                Object.defineProperty(this, key, {
+                    enumerable: false,
+                    configurable: true,
+                    get: function getter() {
+                        return self.data[key];
+                    },
+                    set: function setter(newVal) {
+                        self.data[key] = newVal;
+                    }
+                })
+            }
+        }
+
+        // 监听的构造函数（监听器）
+        function Observer(data) {
+            this.data = data;
+            // 对数据逐个进行监听
+            this.walk(data);
+        }
+
+        // 逐个数据进行监听的遍历
+        Observer.prototype = {
+            walk: function(data) {
+                var self = this;
+                Object.keys(data).forEach(function(key) {
+                    self.defineReactive(data, key, data[key]);
+                })
+            },
+            defineReactive: function(data, key, val) {
+                // 添加订阅和发布
+                var dep = new Dep();
+                // 为data的嵌套的子属性进行监听
+                var childObj = observe(val);
+                // 为每个属性添加订阅和发布信息
+                Object.defineProperty(data, key, {
+                    enumerable: true,
+                    configurable: true,
+                    get: function getter(){
+                        if(Dep.target) {
+                            dep.addSub(Dep.target);
+                        }
+                        return val;
+                    },
+                    set: function(newVal) {
+                        if(newVal === val) { // 数据没有发生变化
+                            return;
+                        }
+                        val = newVal;
+                        dep.notify(); // 数据发生了变化，进行信息发布
+                    }
+                })
+            }
+        }
+
+        // 监听数据的变化
+        function observe(data, vm) {
+            if(!data || typeof data !== 'object'){
+                return;
+            }
+            return new Observer(data);
+        }
+
+        // 订阅者和发布者的构造函数
+        function Dep() {
+            this.subs = []; // 订阅者队列
+        }
+        
+        // 订阅者和发布者
+        Dep.prototype = {
+            addSub: function(sub) {
+                this.subs.push(sub);
+            },
+            notify: function() {
+                this.subs.forEach(function(sub) {
+                    sub.update();
+                })
+            }
+        }
+        Dep.target = null;
+
+        // 指令的编译构造函数和其他
+        function Compile(el, vm) {
+            this.vm = vm;
+            this.el = document.querySelector(el);
+            this.fragment = null; // 片段
+            this.init(); // 初始化编译
+        }
+        Compile.prototype = {
+            init: function() {
+                if(this.el) {
+                    this.fragment = this.nodeToFragment(this.el); // 节点转换成片段
+                    // 编译文档片段元素
+                    this.compileElement(this.fragment);
+                    this.el.appendChild(this.fragment);
+                } else {
+                    console.log('dom元素不存在');
+                }
+            },
+            nodeToFragment: function(el) {
+                var fragment = document.createDocumentFragment();
+                var child = el.firstChild;
+                while(child) {
+                    // 将dom元素移入fragment中
+                    fragment.appendChild(child);
+                    child = el.firstChild
+                }
+                return fragment;
+            },
+            compileElement: function(el) {
+                var childNodes = el.childNodes;
+                var self = this;
+                [].slice.call(childNodes).forEach(function(node) {
+                    var reg = /\{\{(.*)\}\}/;
+                    var text = node.textContent;
+                    if(self.isElementNode(node)) { // 元素节点进行编译
+                        self.compile(node);
+                    } else if(self.isTextNode(node) && reg.test(text)) { // 符合模版进行文本编译
+                        self.compileText(node, reg.exec(text)[1]);
+                    }
+                    // 嵌套的情况
+                    if(node.childNodes && node.childNodes.length) {
+                        self.compileElement(node);
+                    }
+                })
+            },
+            compileText: function(node, exp) {
+                var self = this;
+                var initText = this.vm[exp];
+                this.updateText(node, initText);
+                new Watcher(this.vm, exp, function(value) {
+                    self.updateText(node, value);
+                })
+            },
+            compile: function(node) {
+                var nodeAttrs = node.attributes;
+                var self = this;
+                Array.prototype.forEach.call(nodeAttrs, function(attr) {
+                    var attrName = attr.name;
+                    if(self.isDirective(attrName)) {
+                        var exp = attr.value;
+                        var dir = attrName.substring(2);
+                        if(self.isEventDirective(dir)) { // 事件指令
+                            self.compileEvent(node, self.vm, exp, dir); // 编译事件
+                        } else { // v-model指令
+                            self.compileModel(node, self.vm, exp, dir); // 编译model
+                        }
+                        node.removeAttribute(attrName);
+                    }
+                })
+            },
+            // 编译model
+            compileModel: function(node, vm, exp, dir){
+                var self = this;
+                var val = this.vm[exp];
+                // 更新model
+                this.modelUpdate(node, val);
+                // 通知数据变化
+                new Watcher(this.vm, exp, function(value) {
+                    self.modelUpdate(node, value);
+                });
+                node.addEventListener('input', function(e) {
+                    var newVal = e.target.value;
+                    if(val === newVal) {
+                        return;
+                    }
+                    self.vm[exp] = newVal;
+                    val = newVal;
+                });
+            },
+            // 编译事件
+            compileEvent: function(node, vm, exp, dir) {
+                var eventType = dir.split(':')[1];
+                var cb = vm.methods && vm.methods[exp];
+                if(eventType && cb) {
+                    node.addEventListener(eventType, cb.bind(vm), false);
+                }
+            },
+            updateText: function(node, value) {
+                node.textContent = typeof value == 'undefined' ? '' : value;
+            },
+            modelUpdate: function(node, value, oldValue) {
+                node.value = typeof value == 'undefined' ? '' : value;
+            },
+            // 对自定义属性进行检测
+            isDirective: function(attr) {
+                return attr.indexOf('v-') == 0;
+            },
+            // 对事件绑定属性进行检查
+            isEventDirective: function(dir) {
+                return dir.indexOf('on:') == 0;
+            },
+            // 是否是元素节点
+            isElementNode: function(node) {
+                return node.nodeType == 1;
+            },
+            // 是否是文本节点
+            isTextNode: function(node) {
+                return node.nodeType == 3;
+            }
+        }
+
+        // 订阅者构造函数等
+        function Watcher(vm, exp, cb) {
+            this.vm = vm;
+            this.exp = exp;
+            this.cb = cb;
+            this.value = this.get(); // 将自己添加到订阅器的操作
+        }
+        Watcher.prototype = {
+            update: function() {
+                this.run();
+            },
+            run: function() {
+                var value = this.vm.data[this.exp];
+                var oldVal = this.value;
+                if(value !== oldVal) {
+                    this.value = value;
+                    this.cb.call(this.vm, value, oldVal);
+                }
+            },
+            get: function() {
+                Dep.target = this; // 缓存自己
+                var value = this.vm.data[this.exp]; // 强制执行监听器里的get函数
+                Dep.target = null; // 释放自己
+                return value;
+            }
+        }
+
+        // 新建一个vue实例
+        new Vue({
+            el: "#app",
+            data: {
+                title: 'hello world',
+                name: 'reng99'
+            },
+            methods: {
+                clickMe: function() {
+                    this.title = "hello world";
+                }
+            },
+            mounted: function() {
+                window.setTimeout(() => {
+                    this.title = 'hello';
+                }, 1000);
+            },
+        });
+        
+    </script>
+</body>
+</html>
