@@ -15,3 +15,5 @@
 - [简易版promise](./simple_promise.md)
 
 - [对象深拷贝](./obj_deep_clone.md)
+
+- [类数组和数组](./array_like_and_array.md)
