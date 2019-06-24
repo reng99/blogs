@@ -6,9 +6,10 @@
 
 - [模拟字符串的indexOf方法](./imitate_string_indexof.md)
 
-- [jsonp案例](./jsonp/)
-
-- [cors案例](./cors/)
+- 跨域解决方案
+  - [jsonp案例](./jsonp/)
+  - [cors案例](./cors/)
+  - [nginx反向代理案例](./nginx/)
 
 - [模拟call, apply和bind](./imitate_call_apply_bind.md)
 
