@@ -12,6 +12,8 @@
   - [nginx反向代理案例](./nginx/)
   - [WebSocket协议案例](./websocket/)
 
+- [前端安全](./frontend_security.md)
+
 - [模拟call, apply和bind](./imitate_call_apply_bind.md)
 
 - [简易版promise](./simple_promise.md)
