@@ -1,0 +1,32 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <div>user input：<input type="text"></div>
+    <script src="https://cdn.bootcss.com/socket.io/2.2.0/socket.io.js"></script>
+    <script>
+    var socket = io('http://localhost:8887');
+
+    // 连接成功处理
+    socket.on('connect', function() {
+        // 监听服务端消息
+        socket.on('message', function(msg) {
+            console.log('data from server: ---> ' + msg); 
+        });
+
+        // 监听服务端关闭
+        socket.on('disconnect', function() { 
+            console.log('Server socket has closed.'); 
+        });
+    });
+
+    document.getElementsByTagName('input')[0].onblur = function() {
+        socket.send(this.value);
+    };
+    </script>
+</body>
+</html>

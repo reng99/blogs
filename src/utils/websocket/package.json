@@ -1,0 +1,14 @@
+{
+  "name": "socket",
+  "version": "0.0.1",
+  "main": "server2.js",
+  "scripts": {
+    "start": "node server2.js",
+    "dev": "node server2.js"
+  },
+  "author": "call_me_R",
+  "license": "MIT",
+  "dependencies": {
+    "socket.io": "^2.2.0"
+  }
+}
