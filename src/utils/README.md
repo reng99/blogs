@@ -10,6 +10,7 @@
   - [jsonp案例](./jsonp/)
   - [cors案例](./cors/)
   - [nginx反向代理案例](./nginx/)
+  - [WebSocket协议案例](./websocket/)
 
 - [模拟call, apply和bind](./imitate_call_apply_bind.md)
 
