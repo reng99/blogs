@@ -1,0 +1,54 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>drag and drop</title>
+    <style>
+        #title{
+            cursor: move;
+        }
+        #area{
+            width: 300px;
+            height: 300px;
+            border: 1px solid #000;
+        }
+    </style>
+</head>
+<body>
+    <img id="title" src="http://www.w3school.com.cn/i/eg_dragdrop_w3school.gif" alt="" id="title">
+    <div id="area"></div>
+    <script>
+        var title = document.getElementById('title');
+        title.addEventListener('dragstart', function(e){
+            console.log('start to drag');
+            e.dataTransfer.setData('Text', e.target.id);
+        });
+        title.addEventListener('drag', function(){
+            console.log('draging');
+        });
+        title.addEventListener('dragend', function(){
+            console.log('end drag');
+        });
+
+        var area = document.getElementById('area');
+        area.addEventListener('dragenter', function(){
+            console.log('pic enter the target object');
+        });
+        area.addEventListener('dragover', function(e){
+            e.preventDefault();
+            console.log('your pic is over target area');
+        });
+        area.addEventListener('drop', function(e){
+            e.preventDefault();
+            console.log('you drop the pic');
+            var data = e.dataTransfer.getData('Text');
+            console.log('data', data);
+            e.target.appendChild(document.getElementById(data));
+        });
+        area.addEventListener('dragleave', function(){
+            console.log('you touch drag leave event');
+        })
+    </script>
+</body>
+</html>

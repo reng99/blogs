@@ -6,7 +6,7 @@
   - [nginx反向代理案例](./nginx/)
   - [WebSocket协议案例](./websocket/)
 
-- [前端安全](./frontend_security.md)
+- [前端安全](./frontend_security.md)未完成
 
 - javascript(es5)
   - [模拟call, apply和bind](./imitate_call_apply_bind.md)
@@ -18,12 +18,22 @@
 
 - javascript(es6)
   - [var、let和const](./var_let_const.md)
+  - [promise的使用方法]
   - [简易版promise](./simple_promise.md)
+  - [实现数组去重]set
 
 - 数据结构和算法
 
 - HTTP相关
+  - [HTTP的原理](./http_principle.md)未完成
 
 - VUE相关
+  - [defineProperty的缺点]
 
-- CSS3相关
+- CSS相关
+  - [盒模型和display:box-sizing;]
+  - [rem、em、px和vw单位]
+
+- HTML5相关
+  - [canvas]
+  - [拖拽](./drag/html5_drag.md)
