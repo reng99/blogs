@@ -8,19 +8,17 @@
 
 - [前端安全](./frontend_security.md)未完成
 
-- javascript(es5)
+- javascript
   - [模拟call, apply和bind](./imitate_call_apply_bind.md)
   - [模拟字符串的indexOf方法](./imitate_string_indexof.md)
   - [防抖和节流](./debounce_and_throttle.md)
   - [事件委托/事件代理](./event_agent.md)
   - [对象深拷贝](./obj_deep_clone.md)
   - [类数组和数组](./array_like_and_array.md)
-
-- javascript(es6)
   - [var、let和const](./var_let_const.md)
   - [promise的使用方法]
   - [简易版promise](./simple_promise.md)
-  - [实现数组去重]set
+  - [实现数组去重](./arr_remove_repeat.md)
 
 - 数据结构和算法
 
@@ -34,6 +32,6 @@
   - [盒模型和display:box-sizing;]
   - [rem、em、px、%、vh、vw、vm单位区别](./rem_em_etc.md)
 
-- HTML5相关
-  - [canvas]
-  - [拖拽](./drag/html5_drag.md)
+- HTML相关
+  - [canvas html5]
+  - [拖拽 html5](./drag/html5_drag.md)
