@@ -26,6 +26,7 @@
 
 - HTTP相关
   - [HTTP的原理](./http_principle.md)
+  - [cookie和session的区别](./diff_cookie_session.md)
 
 - VUE相关
   - [defineProperty的缺点]
