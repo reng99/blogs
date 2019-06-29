@@ -4,7 +4,7 @@
 
 ### 防抖
 
-> 防抖：在滚动事件中需要做个复杂计算或者实现一个按钮的防二次点击操作。可以通过函数防抖动来实现。
+> 防抖：在滚动事件中需要做个复杂计算或者实现一个按钮的防二次点击操作。可以通过函数防抖动来实现。【执行最后一次】
 
 ```javascript
 window.onload = function() {
@@ -15,8 +15,8 @@ window.onload = function() {
             const context = this;
             let args = arguments;
             clearTimeout(timer); // 每次调用前都会将前一次的timer清空
-            timer = setTimout(() => {
-                console.log(context);
+            timer = setTimeout(() => {
+                console.log(context); // document
                 fn.apply(context, args);
             }, delay);
         }
@@ -32,7 +32,7 @@ window.onload = function() {
 
 ### 节流
 
-> 节流：防抖和节流的本质是不一样的。防抖是将多次执行变成最后一次执行；节流是将多次执行变成每隔一段时间执行。
+> 节流：防抖和节流的本质是不一样的。防抖是将多次执行变成最后一次执行；节流是将多次执行变成每隔一段时间执行。【每隔一个时间段执行一次】
 
 ```javascript
 window.onload = function() {
@@ -42,6 +42,7 @@ window.onload = function() {
             console.log('carry out');
             const context = this;
             let args = arguments;
+            console.log(context); // document
             if(!timer) {
                 timer = setTimeout(() => {
                     fn.apply(context, args);
