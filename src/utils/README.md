@@ -21,6 +21,7 @@
   - [实现数组去重](./arr_remove_repeat.md)
   - [new都干了什么](./what_new_done.md)
   - [理解this](./understand_this.md)
+  - [检出变量是String类型](./check_type_string.md)
 
 - 数据结构和算法
 
