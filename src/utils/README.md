@@ -30,7 +30,8 @@
   - [cookie和session的区别](./diff_cookie_session.md)
 
 - VUE相关
-  - [defineProperty的缺点]
+  - [defineProperty的缺点](./shortcoming_define_property.md)
+  - [vm.$set和Vue.set的实现]
 
 - CSS相关
   - [盒模型和display:box-sizing;]
