@@ -36,6 +36,7 @@
 - CSS相关
   - [盒模型和display:box-sizing;]
   - [rem、em、px、%、vh、vw、vm单位区别](./rem_em_etc.md)
+  - [实现当行、多行文本溢出显示](./over_single_multi_row.md)
 
 - HTML相关
   - [canvas html5]
