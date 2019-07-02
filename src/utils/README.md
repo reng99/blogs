@@ -41,3 +41,6 @@
 - HTML相关
   - [canvas html5]
   - [拖拽 html5](./drag/html5_drag.md)
+
+- 前端监控
+  - [页面埋点](./bury_on_page.md)
