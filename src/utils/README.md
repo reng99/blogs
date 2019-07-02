@@ -31,7 +31,7 @@
 
 - VUE相关
   - [defineProperty的缺点](./shortcoming_define_property.md)
-  - [vm.$set和Vue.set的实现]
+  - [vm.$set和Vue.set的实现](./principle_set_$set.md)
 
 - CSS相关
   - [盒模型和display:box-sizing;]
