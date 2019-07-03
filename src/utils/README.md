@@ -47,3 +47,6 @@
 
 - 优化
   - [JS中的文档碎片](./fragment_in_js.md)
+
+- 设计模式
+  - [发布-订阅模式 或说 观察者模式](./watcher_model.md)
