@@ -15,15 +15,15 @@
     </a>
 </p>
 
-<p align="center">建立本仓库的目的是<b>彼此交流，共同成长</b>。</p>
-<p align="center">如果您想为本仓库出力，在此之前请阅读<a href="./CONTRIBUTING.md">贡献指南</a>。</p>
-<p align="center">您贡献的博文若被采用，将在下面的博文目录中展示出来，形式是<b>标题--源自某某</b>，默认是自己发的博文。</p>
+<p align="center">建立本倉庫的目的是<b>彼此交流，共同成長</b>。</p>
+<p align="center">如果您想為本倉庫出力，在此之前請閱讀<a href="./CONTRIBUTING.md">貢獻指南</a>。</p>
+<p align="center">您貢獻的博文若被採用，將在下面的博文目錄中展示出來，形式是<b>標題--源自某某</b>，默認是自己發的博文。</p>
 
-<h4 align="center">* 社交--欢迎来撩 *</h4>
+<h4 align="center">* 社交--歡迎來撩 *</h4>
 
 <p align="center">
     💓<a href="./src/other/donate.md">捐助杯星巴克</a>
-    🏃<a href="./src/other/resume.md">关于嘉明</a>
+    🏃<a href="./src/other/resume.md">關於嘉明</a>
 </p>
 <p align="center">
     1⃣️<a href="https://weibo.com/reng99">微博</a> 
@@ -34,64 +34,64 @@
 </p>
 
 <p align="center">
-    🧠<a href="./src/mystery/README.md">推理题&答案</a> 
+    🧠<a href="./src/mystery/README.md">推理題&答案</a> 
 </p>
 
-<h4 align="center">* 博文目录 *</h4>
+<h4 align="center">* 博文目錄 *</h4>
 
 <p align="center"><b>2019-07</b></p> 
 <p align="center">coming soon</p>
 
 <p align="center"><b>2019-06</b></p> 
-<p align="center"><a href="https://github.com/reng99/blogs/issues/31">谈谈HTTP的请求和响应</a></p>
-<p align="center"><a href="https://github.com/reng99/blogs/issues/30">玩玩微信小程序（多图）</a></p>
-<p align="center"><a href="https://github.com/reng99/blogs/issues/29">谈谈JavaScript中的call、apply和bind</a></p>
-<p align="center"><a href="https://github.com/reng99/blogs/issues/28">谈谈JavaScript中装箱和拆箱</a></p>
-<p align="center"><a href="https://github.com/reng99/blogs/issues/27">JavaScript的数据类型及判断</a></p>
+<p align="center"><a href="https://github.com/reng99/blogs/issues/31">談談HTTP的請求和響應</a></p>
+<p align="center"><a href="https://github.com/reng99/blogs/issues/30">玩玩微信小程序</a></p>
+<p align="center"><a href="https://github.com/reng99/blogs/issues/29">談談JavaScript中的call、apply和bind</a></p>
+<p align="center"><a href="https://github.com/reng99/blogs/issues/28">談談JavaScript中裝箱和拆箱</a></p>
+<p align="center"><a href="https://github.com/reng99/blogs/issues/27">JavaScript的數據類型及判斷</a></p>
 
 <p align="center"><b>2019-05</b></p>
-<p align="center"><a href="https://github.com/reng99/blogs/issues/26">移动端网页调试</a></p>
-<p align="center"><a href="https://github.com/reng99/blogs/issues/25">【译】发布你自己的npm包</a></p>
-<p align="center"><a href="https://github.com/reng99/blogs/issues/24">【译】怎么写一个JavaScript Promise</a></p>
-<p align="center"><a href="https://github.com/reng99/blogs/issues/23">小结HTTP状态码</a></p>
-<p align="center"><a href="https://github.com/reng99/blogs/issues/22">【译】使用javascript创建图</a></p>
-<p align="center"><a href="https://github.com/reng99/blogs/issues/21">opacity骚操作</a></p>
-<p align="center"><a href="https://github.com/reng99/blogs/issues/20">【译】JavaScript中的async/await</a></p>
-<p align="center"><a href="https://github.com/reng99/blogs/issues/19">【译】JavaScript中的Promises</a></p>
-<p align="center"><a href="https://github.com/reng99/blogs/issues/18">【译】JavaScript中的Callbacks</a></p>
+<p align="center"><a href="https://github.com/reng99/blogs/issues/26">移動端網頁調試</a></p>
+<p align="center"><a href="https://github.com/reng99/blogs/issues/25">【譯】發布自己的NPM包</a></p>
+<p align="center"><a href="https://github.com/reng99/blogs/issues/24">【譯】怎麼寫一個JavaScript Promise</a></p>
+<p align="center"><a href="https://github.com/reng99/blogs/issues/23">小結HTTP狀態碼</a></p>
+<p align="center"><a href="https://github.com/reng99/blogs/issues/22">【譯】使用javascript創建圖</a></p>
+<p align="center"><a href="https://github.com/reng99/blogs/issues/21">opacity騷操作</a></p>
+<p align="center"><a href="https://github.com/reng99/blogs/issues/20">【譯】JavaScript中的async/await</a></p>
+<p align="center"><a href="https://github.com/reng99/blogs/issues/19">【譯】JavaScript中的Promises</a></p>
+<p align="center"><a href="https://github.com/reng99/blogs/issues/18">【譯】JavaScript中的Callbacks</a></p>
 
 <p align="center"><b>2019-04</b></p>
-<p align="center"><a href="https://github.com/reng99/blogs/issues/17">【译】如何开始CI</a></p>
-<p align="center"><a href="https://github.com/reng99/blogs/issues/16">【译】停止滥用div!HTML语义化介绍</a></p>
-<p align="center"><a href="https://github.com/reng99/blogs/issues/15">导师计划--数据结构和算法系列（下）</a></p>
+<p align="center"><a href="https://github.com/reng99/blogs/issues/17">【譯】如何開始CI</a></p>
+<p align="center"><a href="https://github.com/reng99/blogs/issues/16">【譯】停止div!HTML語義話介紹</a></p>
+<p align="center"><a href="https://github.com/reng99/blogs/issues/15">導師計畫--數據結構和算法系列（下）</a></p>
 
 <p align="center"><b>2019-03</b></p>
-<p align="center"><a href="https://github.com/reng99/blogs/issues/14">导师计划--数据结构和算法系列（上）</a></p>
-<p align="center"><a href="https://github.com/reng99/blogs/issues/12">【译】我是如何学习任意前端框架的</a></p>
-<p align="center"><a href="https://github.com/reng99/blogs/issues/11">【译】JS的执行上下文和环境栈是什么？</a></p>
-<p align="center"><a href="https://github.com/reng99/blogs/issues/10">【译】编程不容易</a></p>
-<p align="center"><a href="https://github.com/reng99/blogs/issues/9">【译】20个更有效地使用谷歌搜索的技巧</a></p>
+<p align="center"><a href="https://github.com/reng99/blogs/issues/14">導師計畫--數據結構和算法系列（上）</a></p>
+<p align="center"><a href="https://github.com/reng99/blogs/issues/12">【譯】我是如何學習任意前端框架的</a></p>
+<p align="center"><a href="https://github.com/reng99/blogs/issues/11">【譯】JS的執行上下文和環境棧是什麼？</a></p>
+<p align="center"><a href="https://github.com/reng99/blogs/issues/10">【譯】編程不容易</a></p>
+<p align="center"><a href="https://github.com/reng99/blogs/issues/9">【譯】20個更有效地使用谷歌搜索的技巧</a></p>
 
 <p align="center"><b align="center">2019-02</b></p>
-<p align="center"><a href="https://github.com/reng99/blogs/issues/8">【译】2019年开始使用Typescript</a></p>
-<p align="center"><a href="https://github.com/reng99/blogs/issues/7">【译】框架与库的差异</a></p>
+<p align="center"><a href="https://github.com/reng99/blogs/issues/8">【譯】2019年開始使用Typescript</a></p>
+<p align="center"><a href="https://github.com/reng99/blogs/issues/7">【譯】框架和庫的差異</a></p>
 
 <p align="center"><b>2019-01</b></p>
-<p align="center"><a href="https://github.com/reng99/blogs/issues/6">【译】javascript中写好条件语句的五个技巧</a></p>
-<p align="center"><a href="https://github.com/reng99/blogs/issues/5">算法的时间复杂度</a></p>
+<p align="center"><a href="https://github.com/reng99/blogs/issues/6">【譯】javascript中寫好條件語句的五個技巧</a></p>
+<p align="center"><a href="https://github.com/reng99/blogs/issues/5">算法的時間複雜度</a></p>
 
 <p align="center"><b>2018-12</b></p>
-<p align="center"><a href="https://github.com/reng99/blogs/issues/4">【译】类比餐厅桌前就餐来解释前端和后端</a></p>
-<p align="center"><a href="https://github.com/reng99/blogs/issues/3">一步步实现人人对战五子棋游戏【canvas版】</a></p>
+<p align="center"><a href="https://github.com/reng99/blogs/issues/4">【譯】類比餐廳桌前就餐來了解前端和後端</a></p>
+<p align="center"><a href="https://github.com/reng99/blogs/issues/3">一步步實現人人對戰五子棋遊戲【canvas版】</a></p>
 
 <p align="center"><b>2018-11</b></center>
-<p align="center"><a href="https://github.com/reng99/blogs/issues/1">【译】需要学习的是编程，而不是编程语言</a></p>
+<p align="center"><a href="https://github.com/reng99/blogs/issues/1">【譯】需要學習的是編程，而不是編程語言</a></p>
 
-<h4 align="center">* 2019读过的书(5为满星) *</h4>
-<p align="center">《在你身边 为你设计》 推荐4颗星</p>
-<p align="center">《做人做到位》 推荐3颗星</p>
-<p align="center">《穷爸爸富爸爸全集》 推荐3.5颗星</p>
-<p align="center">《视觉锤》 推荐3.5颗星</p>
+<h4 align="center">* 2019讀過的書(5為滿星) *</h4>
+<p align="center">《在你身邊 為你設計》 推薦4顆星</p>
+<p align="center">《做人做到位》 推薦3顆星</p>
+<p align="center">《窮爸爸和富爸爸全集》 推薦3.5顆星</p>
+<p align="center">《視覺錘》 推薦3.5顆星</p>
 
-<h4 align="center">* 许可证 *</h4>
+<h4 align="center">* 許可證 *</h4>
 <p align="center"><a href="./LICENSE">MIT </a>CopyRight reng99 since 2018-11</p>
