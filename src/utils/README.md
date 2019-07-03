@@ -44,3 +44,6 @@
 
 - 前端监控
   - [页面埋点](./bury_on_page.md)
+
+- 优化
+  - [JS中的文档碎片](./fragment_in_js.md)
