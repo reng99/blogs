@@ -1,12 +1,13 @@
 ## 工具类
 
-- 跨域解决方案
-  - [jsonp案例](./jsonp/)
-  - [cors案例](./cors/)
-  - [nginx反向代理案例](./nginx/)
-  - [WebSocket协议案例](./websocket/)
+- HTML相关
+  - [canvas html5]
+  - [拖拽 html5](./drag/html5_drag.md)
 
-- [前端安全](./frontend_security.md)未完成
+- CSS相关
+  - [盒模型和display:box-sizing;]
+  - [rem、em、px、%、vh、vw、vm单位区别](./rem_em_etc.md)
+  - [实现当行、多行文本溢出显示](./over_single_multi_row.md)
 
 - javascript
   - [模拟call, apply和bind](./imitate_call_apply_bind.md)
@@ -23,25 +24,24 @@
   - [理解this](./understand_this.md)
   - [检出变量是String类型](./check_type_string.md)
 
-- 数据结构和算法
-
 - HTTP相关
-  - [HTTP的原理](./http_principle.md)
+  - [HTTP的原理](./http/http_principle.md)
+  - [TCP/IP协议族按层次划分了哪几层](./http/tcp_ip_level.md)
+
+- [前端安全](./frontend_security.md)未完成
+
+- 浏览器
   - [cookie和session的区别](./diff_cookie_session.md)
+  - 跨域解决方案
+    - [jsonp案例](./jsonp/)
+    - [cors案例](./cors/)
+    - [nginx反向代理案例](./nginx/)
+    - [WebSocket协议案例](./websocket/)
 
 - VUE相关
   - [defineProperty的缺点](./shortcoming_define_property.md)
   - [vm.$set和Vue.set的实现](./principle_set_$set.md)
   - [虚拟dom](./virtual_dom.md)
-
-- CSS相关
-  - [盒模型和display:box-sizing;]
-  - [rem、em、px、%、vh、vw、vm单位区别](./rem_em_etc.md)
-  - [实现当行、多行文本溢出显示](./over_single_multi_row.md)
-
-- HTML相关
-  - [canvas html5]
-  - [拖拽 html5](./drag/html5_drag.md)
 
 - 前端监控
   - [页面埋点](./bury_on_page.md)
@@ -51,3 +51,6 @@
 
 - 设计模式
   - [发布-订阅模式 或说 观察者模式](./watcher_model.md)
+
+- 数据结构和算法
+  - 冒泡排序
