@@ -1,4 +1,6 @@
-## 工具类
+## 实用部分（提升部分）
+
+> 知识点的收集和个人提升
 
 - HTML相关
   - [canvas html5]
@@ -50,7 +52,8 @@
   - [JS中的文档碎片](./fragment_in_js.md)
 
 - 设计模式
-  - [发布-订阅模式 或说 观察者模式](./watcher_model.md)
+  - [单例模式](./design_model/singleton_model.md)
+  - [发布-订阅模式 或说 观察者模式](./design_model/watcher_model.md)
 
 - 数据结构和算法
   - 冒泡排序
