@@ -81,3 +81,55 @@ document.querySelector('#hide').addEventListener('click', ()=>{
     document.querySelector('.common-box').style.display = 'none';
 }, false);
 ```
+
+### 两个单例进行通信
+
+```javascript
+var xiaowang = (function(argument) {
+    var xiaowangjia = function(message) {
+        this.menling = message;
+    };
+    var men;
+    var info = {
+        sendMessage: function(message) {
+            if(!men) {
+                men = new xiaowangjia(message);
+            }
+            return men
+        }
+    }
+    return info;
+})();
+
+var xiaoli = {
+    callXiaowang: function(msg) {
+        var _xw = xiaowang.sendMessage(msg);
+        alert(_xw.menling);
+        _wx = null; // 解除必包，等待垃圾回收
+    }
+}
+xiaoli.callXiaowang('didi');
+```
+
+### 作用和注意事项
+
+#### 模式的作用
+
+1. 模块之间的通信
+
+2. 系统中某个类的对象只存在一个
+
+3. 可以保护自己的属性和方法
+
+#### 注意事项
+
+1. 注意下this的使用
+
+2. 闭包容易造成内存泄漏，不需要的赶紧null掉
+
+3. 注意new的成本（继承）
+
+```javascript
+var s1 = 'jiaming'; // 隐式创建
+var s2 = new String('jiaming'); // 显示创建，成本高
+```

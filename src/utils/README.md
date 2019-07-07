@@ -53,6 +53,7 @@
 
 - 设计模式
   - [单例模式](./design_model/singleton_model.md)
+  - [构造函数模式](./design_model/constructor_model.md)
   - [发布-订阅模式 或说 观察者模式](./design_model/watcher_model.md)
 
 - 数据结构和算法
