@@ -52,6 +52,7 @@
   - [JS中的文档碎片](./fragment_in_js.md)
 
 - 设计模式
+  - [概要](./design_model/overview.md)
   - [单例模式](./design_model/singleton_model.md)
   - [构造函数模式](./design_model/constructor_model.md)
   - [发布-订阅模式 或说 观察者模式](./design_model/watcher_model.md)
