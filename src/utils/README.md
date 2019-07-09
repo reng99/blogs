@@ -65,6 +65,7 @@
   - [迭代器模式](./design_model/repeat_model.md)
   - [职责链模式](./design_model/duty_chain_model.md)
   - [适配器模式](./design_model/adapt_model.md)
+  - [模版方法](./design_model/template_methods.md)
 
 - 数据结构和算法
   - 冒泡排序
