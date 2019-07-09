@@ -39,7 +39,8 @@
 
 <h4 align="center">* 博文目錄 *</h4>
 
-<p align="center"><b>2019-07</b></p> 
+<p align="center"><b>2019-07</b></p>
+<p align="center"><a href="https://github.com/reng99/blogs/issues/33">javascript中的六種繼承方式</a></p>
 <p align="center"><a href="https://github.com/reng99/blogs/issues/32">React-Native踩坑紀</a></p>
 
 <p align="center"><b>2019-06</b></p> 
