@@ -60,6 +60,7 @@
   - [外观模式](./design_model/appearance_model.md)
   - [代理模式](./design_model/proxy_model.md)
   - [发布-订阅模式 或说 观察者模式](./design_model/watcher_model.md)
+  - [策略模式](./design_model/tack_model.md)
 
 - 数据结构和算法
   - 冒泡排序
