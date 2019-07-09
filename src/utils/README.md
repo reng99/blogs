@@ -63,6 +63,7 @@
   - [策略模式](./design_model/tack_model.md)
   - [命令模式](./design_model/command_model.md)
   - [迭代器模式](./design_model/repeat_model.md)
+  - [职责链模式](./design_model/duty_chain_model.md)
 
 - 数据结构和算法
   - 冒泡排序
