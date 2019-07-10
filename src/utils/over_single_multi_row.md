@@ -20,7 +20,7 @@
 #text{
     display: -webkit-box; // 为box进行盒子限制
     -webkit-box-orient: vertical; // 文本的方向是垂直
-    -webkit-line-clamp: 3; // 文本的函数
+    -webkit-line-clamp: 3; // 文本的行数
     overflow: hidden;
 }
 ```
