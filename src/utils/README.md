@@ -71,3 +71,4 @@
 - 数据结构和算法
   - 数据结构
     - [栈](./structure/stack.md)
+    - [队列](./structure/queue.md)
