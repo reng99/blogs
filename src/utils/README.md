@@ -72,3 +72,4 @@
   - 数据结构
     - [栈](./structure/stack.md)
     - [队列](./structure/queue.md)
+    - [链表](./structure/linkedList.md)
