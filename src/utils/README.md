@@ -69,4 +69,5 @@
   - [原型模式](./design_model/proto_model.md)
 
 - 数据结构和算法
-  - 冒泡排序
+  - 数据结构
+    - [栈](./structure/stack.md)
