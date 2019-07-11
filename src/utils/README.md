@@ -44,6 +44,7 @@
   - [defineProperty的缺点](./shortcoming_define_property.md)
   - [vm.$set和Vue.set的实现](./principle_set_$set.md)
   - [虚拟dom](./virtual_dom.md)
+  - [计算属性和监听属性](./computed_watch.md)
 
 - 前端监控
   - [页面埋点](./bury_on_page.md)
