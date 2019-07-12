@@ -38,8 +38,9 @@
 </p>
 
 <h4 align="center">* 博文目錄 *</h4>
-
+谈谈ES6语法（汇总上篇）
 <p align="center"><b>2019-07</b></p>
+<p align="center"><a href="https://github.com/reng99/blogs/issues/36">談談ES6語法（匯總上篇）</a></p>
 <p align="center"><a href="https://github.com/reng99/blogs/issues/35">【譯】成為優秀程序員（和人類）的101個技巧</a></p>
 <p align="center"><a href="https://github.com/reng99/blogs/issues/34">javascript事件循環機制</a></p>
 <p align="center"><a href="https://github.com/reng99/blogs/issues/33">javascript中的六種繼承方式</a></p>
