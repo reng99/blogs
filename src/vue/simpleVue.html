@@ -28,7 +28,7 @@
             this.data = options.data;
             this.methods = options.methods;
 
-            // 为每个对象添加set和get，方便监听
+            // 将data上面的属性代理到vm实例上
             Object.keys(this.data).forEach(function(key) {
                 self.proxyKeys(key);
             });
