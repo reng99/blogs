@@ -79,3 +79,4 @@
     - [哈希表](./structure/hashTable.md)
   - 基本算法
     - [冒泡排序](./algorithm/bubble.md) 
+    - [快速排序](./algorithm/quickSort.md)
