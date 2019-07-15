@@ -81,4 +81,5 @@
     - [冒泡排序](./algorithm/bubble.md) 
     - [选择排序](./algorithm/selectSort.md)
     - [插入排序](./algorithm/insertSort.md)
+    - [归并排序](./algorithm/mergeSort.md)
     - [快速排序](./algorithm/quickSort.md)
