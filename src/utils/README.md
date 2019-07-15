@@ -19,7 +19,6 @@
   - [对象深拷贝](./obj_deep_clone.md)
   - [类数组和数组](./array_like_and_array.md)
   - [var、let和const](./var_let_const.md)
-  - [promise的使用方法](./ways_to_use_promise.md) 未完成
   - [简易版promise](./simple_promise.md)
   - [实现数组去重](./arr_remove_repeat.md)
   - [new都干了什么](./what_new_done.md)

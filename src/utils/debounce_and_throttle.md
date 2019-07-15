@@ -59,3 +59,47 @@ window.onload = function() {
     document.addEventListener('scroll', throttle(scrollTap, 1000));
 }
 ```
+
+### 另外一个代码示例
+
+```javascript
+// 防抖
+var deBounce = function(fn, wait=300) {
+    console.log('j')
+    let timer;
+    return function() {
+        if(timer) {
+            clearTimeout(timer);
+        }
+        timer = setTimeout(() => {
+            console.log(this); // this 指向window，是window调用了setTimeout
+            fn.apply(this, arguments);
+        }, wait);
+    }
+}
+let obj = {
+    sayHi: function(){
+        console.log('from obj')
+    }
+}
+deBounce(obj.sayHi, 1000)();
+
+// 节流
+var throttle = function(fn, wait=300) {
+    // +new Date()相当于调用 Date.prototype.valueOf()方法
+    let prev = +new Date();
+    console.log(prev);
+    return function() {
+        const args = arguments;
+        now  = +new Date();
+        if(now > prev + wait){
+            prev = now;
+            fn.apply(this, args);
+        }
+    }
+}
+throttle(function(){
+    console.log('Hi');
+}, 1000)()
+
+```
