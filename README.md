@@ -39,6 +39,7 @@
 
 <h4 align="center">* 博文目錄 *</h4>
 <p align="center"><b>2019-07</b></p>
+<p align="center"><a href="https://github.com/reng99/blogs/issues/39">談談webpack</a></p>
 <p align="center"><a href="https://github.com/reng99/blogs/issues/38">談談ES6語法（匯總下篇）</a></p>
 <p align="center"><a href="https://github.com/reng99/blogs/issues/37">談談ES6語法（匯總中篇）</a></p>
 <p align="center"><a href="https://github.com/reng99/blogs/issues/36">談談ES6語法（匯總上篇）</a></p>
