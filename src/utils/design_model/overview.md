@@ -17,3 +17,5 @@
 
 综述：站在巨人的肩膀上整体hold住系统架构。
 
+更多更详细内容：https://github.com/CyC2018/CS-Notes/blob/master/notes/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F.md
+
