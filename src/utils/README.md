@@ -26,6 +26,7 @@
   - [new都干了什么](./what_new_done.md)
   - [理解this](./understand_this.md)
   - [检出变量是String类型](./check_type_string.md)
+  - [手写一个ajax](./write_ajax.md)
 
 - HTTP相关
   - [HTTP的原理](./http/http_principle.md)
