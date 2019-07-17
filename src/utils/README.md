@@ -10,6 +10,7 @@
   - [盒模型和display:box-sizing;]
   - [rem、em、px、%、vh、vw、vm单位区别](./rem_em_etc.md)
   - [实现单行、多行文本溢出显示](./over_single_multi_row.md)
+  - [CSS选择器的优先级](./css/priority.md)
 
 - javascript
   - [模拟call, apply和bind](./imitate_call_apply_bind.md)
