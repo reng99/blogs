@@ -39,6 +39,42 @@ $.jianting('/test/ls', function(e, a, b, c){
 $.fabu('test/ls', [1, 2, 3]);
 ```
 
+再来个演示代码：
+
+```javascript
+var Observer = (function(){
+    var _message = {};
+    return {
+        subscribe(type, fn) {
+            if(_message[type]) {
+                _message[type].push(fn);
+            } else {
+                _message[type] = [fn];
+            }
+        },
+        publish(type, ...args) {
+            if(!_message[type]) {
+                return;
+            }
+            _message[type].forEach(item => {
+                item.apply(this, args);
+            });
+        },
+        unsubscribe(type, fn) {
+            if(!_message[type]) {
+                return;
+            }
+            if(fn) {
+                _message[type].forEach(function(item, index) {
+                    item === fn && _message[type].splice(index, 1);
+                });
+            } else {
+                _message[type] = null;
+            }
+        }
+    }
+})();
+```
 
 ### 参考文章
 
