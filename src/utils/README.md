@@ -85,3 +85,4 @@
     - [插入排序](./algorithm/insertSort.md)
     - [归并排序](./algorithm/mergeSort.md)
     - [快速排序](./algorithm/quickSort.md)
+    - [贪心算法](./algorithm/greedAlgorithm.md)
