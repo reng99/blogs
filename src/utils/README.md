@@ -7,7 +7,7 @@
   - [拖拽 html5](./drag/html5_drag.md)
 
 - CSS相关
-  - [盒模型和display:box-sizing;]
+  - [盒模型和box-sizing;](./css/boxSizing.md)
   - [rem、em、px、%、vh、vw、vm单位区别](./rem_em_etc.md)
   - [实现单行、多行文本溢出显示](./over_single_multi_row.md)
   - [CSS选择器的优先级](./css/priority.md)
