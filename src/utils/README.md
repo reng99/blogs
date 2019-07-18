@@ -57,6 +57,7 @@
   - [vue-router钩子函数](./vue/vue_router_hook.md)
   - [vuex介绍](./vue/vuex_intro.md)
   - [自定义指令](./vue/vue_directive.md)
+  - [自定义过滤事件](./vue/vue_filter.md)
 
 - 前端监控
   - [页面埋点](./bury_on_page.md)
