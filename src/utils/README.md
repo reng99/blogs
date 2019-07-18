@@ -51,6 +51,7 @@
   - [事件总线 EventBus](./eventBus.md)
   - [data必须是一个函数](./data_should_function.md)
   - [mvvm的理解](./vue/mvvm_note.md)
+  - [Vue的生命周期](./vue/lifecycle.md)
 
 - 前端监控
   - [页面埋点](./bury_on_page.md)
