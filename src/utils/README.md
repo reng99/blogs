@@ -91,6 +91,7 @@
     - [字典](./structure/dictionary.md)
     - [集合](./structure/set.md)
     - [哈希表](./structure/hashTable.md)
+    - [二叉查找树](./structure/binary_tree.md)
   - 基本算法
     - [冒泡排序](./algorithm/bubble.md) 
     - [选择排序](./algorithm/selectSort.md)
