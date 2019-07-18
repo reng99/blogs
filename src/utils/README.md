@@ -1,6 +1,6 @@
-## 实用部分（提升部分）
+## 嘉明的进阶笔记
 
-> 知识点的收集和个人提升
+> 前端进阶
 
 - HTML相关
   - [canvas html5]
@@ -50,6 +50,7 @@
   - [计算属性和监听属性](./computed_watch.md)
   - [事件总线 EventBus](./eventBus.md)
   - [data必须是一个函数](./data_should_function.md)
+  - [mvvm的理解](./vue/mvvm_note.md)
 
 - 前端监控
   - [页面埋点](./bury_on_page.md)

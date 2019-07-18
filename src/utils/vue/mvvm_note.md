@@ -1,0 +1,13 @@
+## 对mvvm的理解
+
+MVVM是**Model-View-ViewModel**的缩写。
+
+Model代表数据模型，也可以在Model中定义数据修改和操作的业务逻辑。
+
+View代表UI组件，它负责将数据模型转换成UI展示出来。
+
+ViewModel监听模型数据的改变和控制视图的行为、处理用户交互，简单理解就是一个同步View和Model的对象，连接Model和View。
+
+在MVVM框架下，View和Model之间没有直接的联系，而是通过ViewModel进行交互，Model和ViewModel直接的交互是双向的，因此View数据的变化会同步到Model中，而Model的数据变化也会立即反应到View上。
+
+ViewModel通过双向数据绑定把View层和Model层连接了起来，而View和Model之间的同步工作完全是自动的，无需认为干涉，因此开发者只需要关注业务逻辑，不需要手动操作DOM，不需要关注数组状态的同步问题，复杂的数据维护完全由MVVM来统一管理。
