@@ -104,3 +104,6 @@
     - [快速排序](./algorithm/quickSort.md)
     - [动态规划](./algorithm/dynamic_plan.md)
     - [贪心算法](./algorithm/greedAlgorithm.md)
+
+- nodeJs
+  - [nodejs的事件循环](./nodejs/node_event_loop.md)
