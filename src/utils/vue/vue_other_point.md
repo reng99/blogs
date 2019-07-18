@@ -24,7 +24,7 @@ router是‘路由实例’对象，包括了路由的跳转方法，钩子函�
 
 v-for , v-if, v-bind, v-on, v-show, v-else
 
-### vue常用的几个指令
+### vue常用的修饰符
 
 - .prevent: 提交事件不重新加载页面
 - .stop: 阻止单击事件冒泡
