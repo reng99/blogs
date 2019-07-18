@@ -55,6 +55,7 @@
   - [Vue实现数据双向绑定的原理](./vue/databind_principle.md)
   - [vue-router的路由模式](./vue/vue_router_mode.md)
   - [vue-router钩子函数](./vue/vue_router_hook.md)
+  - [vuex介绍](./vue/vuex_intro.md)
 
 - 前端监控
   - [页面埋点](./bury_on_page.md)
