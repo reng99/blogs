@@ -5,3 +5,9 @@
 ### 防御
 
 使用`X-Frame-Options`：DENY这个HTTP Header来明确告诉浏览器，不要把当前HTTP响应中的内容在HTML Frame中显示出来。
+
+`X-Frame-Options`有三个值：
+
+- DENY：浏览器会拒绝当前页面加载任何frame页面；
+- SAMEORIGIN：frame页面的地址只能为同源域名下的页面
+- ALLOW-FROM：定义允许frame加载的页面地址
