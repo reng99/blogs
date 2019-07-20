@@ -37,6 +37,7 @@
   - [TCP四次挥手](./http/tcp_close.md)
   - [HTTP缓存](./http/http_cache.md)
   - [HTTP的版本历史](./http/http_version_history.md)
+  - [Etag值](./http/etag.md)
 
 - 浏览器
   - [cookie和session的区别](./diff_cookie_session.md)
