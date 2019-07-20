@@ -34,3 +34,6 @@ new ExtractTextPlugin({
 ### 参考
 
 https://juejin.im/post/5a4502be6fb9a0450d1162ed
+
+
+【hash生成的随机值应该是通过哈希函数/辅助函数进行生成的】
