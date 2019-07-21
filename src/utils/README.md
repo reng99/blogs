@@ -30,6 +30,7 @@
   - [callee和caller](./callee_caller.md)
   - [strict 严格模式](./js/strict_mode.md)
   - [JSON.parse](./js/json_parse.md)
+  - [JSON.stringify](./js/json_stringify.md)
 
 - HTTP相关
   - [HTTP的原理](./http/http_principle.md)
