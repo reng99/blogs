@@ -111,6 +111,7 @@
   - [koa2](./nodejs/koa2.md)
   - [pm2](./nodejs/pm2.md)
   - [fs文件系统](./nodejs/file_system.md)
+  - [path路径](./nodejs/path.md)
 
 - 前端安全
   - [跨站脚本攻击XSS](./security/xss.md)
