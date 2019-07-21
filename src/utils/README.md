@@ -112,6 +112,7 @@
   - [pm2](./nodejs/pm2.md)
   - [fs文件系统](./nodejs/file_system.md)
   - [path路径](./nodejs/path.md)
+  - [events事件触发器](./nodejs/events.md)
 
 - 前端安全
   - [跨站脚本攻击XSS](./security/xss.md)
