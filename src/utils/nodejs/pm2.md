@@ -22,6 +22,7 @@ pm2 stop all // 关闭所有的应用
 pm2 stop id // 关闭指定的应用
 pm2 delete id // 删除指定的应用
 pm2 monit // 监控开启的应用
+pm2 list // 罗列出应用服务
 ```
 
 ### 实践
