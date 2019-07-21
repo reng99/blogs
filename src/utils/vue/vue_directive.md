@@ -1,6 +1,6 @@
 ## vue-cli如何新增自定义指令
 
-**通过关键字direcives**
+**通过关键字directives**
 
 1. 创建局部的指令
 
@@ -14,7 +14,7 @@ let app = new Vue({
     directives: {
         // 指令名称
         dir1: {
-            inserted(el) {
+            inserted(el) { // inserted也是关键
                 // 指令中的第一个参数是当前使用指令的DOM
                 console.log(arguments);
                 // 对dom进行操作
