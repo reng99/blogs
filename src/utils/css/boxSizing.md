@@ -36,3 +36,33 @@ css3出现了个新的东西：`box-sizing`
 </body>
 </html>
 ```
+
+### 使用场景
+
+比如下面这个：
+
+```javascript
+<div style="width: 200px;background: red;height: 50px;">
+    <div style="width: 100%;height: 30px;background: blue;border: 5px solid #333;"></div>
+</div>
+```
+
+上面代码对应的图：
+
+![boxsizing01](./imgs/boxsizing01.png)
+
+修正后：
+
+```javascript
+<div style="width: 200px;background: red;height: 50px;">
+    <div style="width: 100%;height: 30px;background: blue;border: 5px solid #333;box-sizing: border-box;"></div>
+</div>
+```
+
+![boxsizing02](./imgs/boxsizing02.png)
+
+
+
+
+
+
