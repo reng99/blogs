@@ -51,6 +51,9 @@ sudo nginx reopen
 
 # 帮助
 nginx -h
+
+# 测试nginx的文件又没有语法错误
+sudo nginx -t
 ```
 
 ### 卸载nginx
