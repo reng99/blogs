@@ -28,6 +28,7 @@
   - [检出变量是String类型](./check_type_string.md)
   - [手写一个ajax](./write_ajax.md)
   - [callee和caller](./callee_caller.md)
+  - [strict 严格模式](./js/strict_mode.md)
 
 - HTTP相关
   - [HTTP的原理](./http/http_principle.md)
