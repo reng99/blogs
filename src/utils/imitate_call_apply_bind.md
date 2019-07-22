@@ -33,7 +33,7 @@ Function.prototype.apply2 = function(context, arr){
 Function.prototype.bind2 = function(context, ...args){
     var fn = this; 
     return function () { // 这里不能使用箭头函数，不然参数arguments的指向就很尴尬了，指向父函数的参数
-        fn.call(context, ...args, ...arguments);
+        fn.call(context, ...args, ...arguments); // 不能直接使用this.call(context, ...args, ...arguments), this指向错误，指到了window
     }
 }
 ```
