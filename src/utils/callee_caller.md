@@ -69,6 +69,8 @@ function b() {
 - caller的应用场景主要是用于查看函数本身被哪个函数调用
 
 
+⚠️严格模式下不能使用callee 和 caller
+
 
 
 
