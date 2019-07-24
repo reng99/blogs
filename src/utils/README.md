@@ -112,7 +112,7 @@
     - [动态规划](./algorithm/dynamic_plan.md)
     - [贪心算法](./algorithm/greedAlgorithm.md)
   - 参考题
-    - [B是A子集的问题](./algorithm/subArr.md)
+    - [B是A子集的问题](./algorithm/sub_arr.md)
 
 - nodeJs
   - [nodejs的事件循环](./nodejs/node_event_loop.md)
