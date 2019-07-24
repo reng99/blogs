@@ -33,6 +33,7 @@
   - [JSON.parse](./js/json_parse.md)
   - [JSON.stringify](./js/json_stringify.md)
   - [重排和重绘](./js/relayout_repaint.md)
+  - [websocket介绍](./js/websocket.md)
 
 - HTTP相关
   - [HTTP的原理](./http/http_principle.md)
