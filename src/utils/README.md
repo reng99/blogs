@@ -133,3 +133,6 @@
 
 - webpack
   - [hash,chunkhash,contenthash解析](./webpack/hash_chunkhash_contenthash.md)
+
+- QA
+  - [网站的内容存储用别的域名，有什么好处？](./qa/use_other_domain.md)
