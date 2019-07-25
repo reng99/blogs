@@ -76,6 +76,7 @@
 
 - 优化
   - [JS中的文档碎片](./fragment_in_js.md)
+  - [首屏优化](./first_screen_optimise.md)
 
 - 设计模式
   - [概要](./design_model/overview.md)
