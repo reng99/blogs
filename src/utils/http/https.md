@@ -11,6 +11,6 @@ HTTPS(Hyper Text Transfer Protocol over Secure Socket Layer)，是以安全为�
 
 ### HTTPS原理
 
-![https_principle](./imgs/https_principle.md)
+![https_principle](./imgs/https_principle.png)
 
 文章参考：https://mp.weixin.qq.com/s/StqqafHePlBkWAPQZg3NrA
