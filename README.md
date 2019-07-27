@@ -38,6 +38,9 @@
 </p>
 
 <h4 align="center">* 博文目錄 *</h4>
+<p align="center"><b>2019-08</b></p>
+<p align="center"><b>有待补充</b></p>
+
 <p align="center"><b>2019-07</b></p>
 <p align="center"><a href="https://github.com/reng99/blogs/issues/41">【譯】如何大大簡化你的Vuex Store</a></p>
 <p align="center"><a href="https://github.com/reng99/blogs/issues/40">【譯】JS中service workers的簡介</a></p>
