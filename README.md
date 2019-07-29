@@ -33,10 +33,6 @@
     5⃣️<a href="https://www.zhihu.com/people/reng99/activities">知乎</a> 
 </p>
 
-<p align="center">
-    🧠<a href="./src/mystery/README.md">推理題&答案</a> 
-</p>
-
 <h4 align="center">* 博文目錄 *</h4>
 <p align="center"><b>2019-08</b></p>
 <p align="center"><b>有待补充</b></p>
