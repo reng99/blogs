@@ -38,6 +38,7 @@
 <p align="center"><b>有待补充</b></p>
 
 <p align="center"><b>2019-07</b></p>
+<p align="center"><a href="https://github.com/reng99/blogs/issues/42">【譯】如何使用webpack減少vuejs打包的大小</a></p>
 <p align="center"><a href="https://github.com/reng99/blogs/issues/41">【譯】如何大大簡化你的Vuex Store</a></p>
 <p align="center"><a href="https://github.com/reng99/blogs/issues/40">【譯】JS中service workers的簡介</a></p>
 <p align="center"><a href="https://github.com/reng99/blogs/issues/39">談談webpack</a></p>
