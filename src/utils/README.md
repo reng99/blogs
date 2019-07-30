@@ -47,6 +47,7 @@
 
 - 浏览器
   - [cookie和session的区别](./diff_cookie_session.md)
+  - [前端处理cookie](./handle_cookie.md)
   - 跨域解决方案
     - [jsonp案例](./jsonp/)
     - [cors案例](./cors/)
