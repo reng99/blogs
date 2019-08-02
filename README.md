@@ -35,7 +35,7 @@
 
 <h4 align="center">* 博文目錄 *</h4>
 <p align="center"><b>2019-08</b></p>
-<p align="center"><b>有待补充</b></p>
+<p align="center"><a href="https://github.com/reng99/blogs/issues/43">【譯】我見過最好最詳細的javascript關係的解釋</a></p>
 
 <p align="center"><b>2019-07</b></p>
 <p align="center"><a href="https://github.com/reng99/blogs/issues/42">【譯】如何使用webpack減少vuejs打包的大小</a></p>
