@@ -23,7 +23,7 @@
 
 <p align="center">
     💓<a href="./src/other/donate.md">捐助杯星巴克</a>
-    🏃<a href="./src/other/resume.md">關於嘉明</a>
+    🏃<a href="./src/other/resume.md">關於我</a>
 </p>
 <p align="center">
     1⃣️<a href="https://weibo.com/reng99">微博</a> 
