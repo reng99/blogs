@@ -14,14 +14,14 @@
 
 ### contenthash
 
-打包时发现，js和js引入的css的`chunkhash`是相同的，导致无法区分css和js的更新，如下：
+打包时，js和js引入的css的`chunkhash`是相同的，导致无法区分css和js的更新，如下：
 
 ```javascript
 app_96ac1.css
 ```
 
 - **原因**：因为webpack的编译理念，webpack将css视为js的一部分，所以在计算chunkhash时，会把所有的js代码和css代码混合在一起计算
-- **解决**：css是使用 ExtractTextPlugin 插件引入的，这时候可以使用到这个插件提供的 contenthash ，如下(使用后css就有独立于js外的指纹了)。
+- **解决**：css是使用 ExtractTextPlugin 插件引入的，这时候可以使用到这个插件提供的 contenthash ，如下(使用后css就有独立于js外了)。
 
 ```javascript
 //提取css文件
