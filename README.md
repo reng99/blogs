@@ -35,7 +35,7 @@
 
 <h4 align="center">* 博文目錄 *</h4>
 <p align="center"><b>2019-08</b></p>
-<p align="center"><a href="https://github.com/reng99/blogs/issues/45">搭建中台vue項目UI</a></p>
+<p align="center"><a href="https://github.com/reng99/blogs/issues/45">搭建中台--管理平台vue項目UI</a></p>
 <p align="center"><a href="https://github.com/reng99/blogs/issues/44">nginx處理跨域</a></p>
 <p align="center"><a href="https://github.com/reng99/blogs/issues/43">【譯】我見過最好最詳細的javascript關係的解釋</a></p>
 
