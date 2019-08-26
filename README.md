@@ -98,6 +98,7 @@
 <p align="center"><a href="https://github.com/reng99/blogs/issues/1">【譯】需要學習的是編程，而不是編程語言</a></p>
 
 <h4 align="center">* 2019讀過的書(5為滿星) *</h4>
+<p align="center">《誰的青春不迷茫》 推薦4顆星</p>
 <p align="center">《數據結構與算法JavaScript描述》 推薦4.5顆星</p>
 <p align="center">《在你身邊 為你設計》 推薦4顆星</p>
 <p align="center">《做人做到位》 推薦3顆星</p>
