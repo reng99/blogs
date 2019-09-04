@@ -34,6 +34,9 @@
 </p>
 
 <h4 align="center">* 博文目錄 *</h4>
+<p align="center"><b>2019-09</b></p>
+<p align="center">coming soon</p>
+
 <p align="center"><b>2019-08</b></p>
 <p align="center"><a href="https://github.com/reng99/blogs/issues/46">【譯】前端 VS 後端</a></p>
 <p align="center"><a href="https://github.com/reng99/blogs/issues/45">搭建中台--管理平台vue項目UI</a></p>
