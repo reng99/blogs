@@ -42,5 +42,5 @@ this.$set(this.membersArray, 3, myNewValue)
 
 ### Vue 3.0
 
-This is all still subject
+在编写这篇文章时，这一切仍然可能更改，但是现在满大街都在说这些警告将不再是问题。换言之，`Vue 3.0`会让你完全忘记这些边缘的案例，除了那些可怜的灵魂，他们必须要针对某些不能完全支持新响应式系统的旧浏览器。
 
