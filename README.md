@@ -38,6 +38,7 @@
 <p align="center">on the way</p>
 
 <p align="center"><b>2019-09</b></p>
+<p align="center"><a href="https://github.com/reng99/blogs/issues/49">【譯】Vue.set實際上是什麼？</a></p>
 <p align="center"><a href="https://github.com/reng99/blogs/issues/48">【譯】JavaScript中你需要了解的最出色新特性：Optional Chaining</a></p>
 <p align="center"><a href="https://github.com/reng99/blogs/issues/47">【譯】我最喜歡的CSS hack</a></p>
 
