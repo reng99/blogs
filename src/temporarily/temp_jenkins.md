@@ -8,7 +8,7 @@
 
 安装nginx，你可以参考这篇文章进行：http://reng99.cc/2018/08/19/static-website-deploy/
 
-我现在了一款[SecureCRT](https://www.vandyke.com/products/securecrt/mac_osx.html)【一款支持SSH(SSH1和SSH2)的终端仿真程序】-mac上的，进行资源的上传。
+我现在了一款[SecureCRT](https://www.vandyke.com/products/securecrt/mac_osx.html)【一款支持SSH(SSH1和SSH2)的终端仿真程序】，进行资源的上传。
 
 注意点：在上传了资源的时候，你打开相关的ip地址，如果你没有看到页面，请检查一下安全组的设置。
 
