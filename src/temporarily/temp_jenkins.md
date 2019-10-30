@@ -17,3 +17,28 @@
 ![group_secure](C:\Users\yamei\Desktop\group.jpg)
 
 ### 2.在服务器上面搭建JENKINS环境
+
+#### 2.1 安装java sdk
+
+可以参考文章[待定]()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+### 参考文件
