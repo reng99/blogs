@@ -16,6 +16,14 @@
 
 ![group_secure](C:\Users\yamei\Desktop\group.jpg)
 
+例如：
+
+```bash
+# 配置好之后，需要在“安全列表 - 配置规则”中“添加安全组规则”进行配置
+端口范围 80/80
+授权对象 0.0.0.0
+```
+
 ### 2.在服务器上面搭建JENKINS环境
 
 #### 2.1 安装java sdk
