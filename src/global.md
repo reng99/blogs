@@ -44,7 +44,24 @@ Window {postMessage: ƒ, blur: ƒ, focus: ƒ, close: ƒ, parent: Window, …}
 
 然而，当使用[严格模式](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode)，全局上下文中，函数内`this`的上下文指向`undefined`。
 
+```javascript
+'use strict'
 
+function printThis() {
+  console.log(this)
+}
+
+printThis()
+```
+
+```javascript
+Output
+undefined
+```
+
+总的来说，使用严格模式更加安全，能减少`this`带来的非预期作用域的可能性。很少有人想直接将`this`指向`window`对象。
+
+> 更多~
 
 
 
