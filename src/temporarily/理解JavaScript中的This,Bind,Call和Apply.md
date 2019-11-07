@@ -246,19 +246,124 @@ Output
 
 因为`summary`和`book`没有关联，调用`summary`本身将只会打印出`undefined`，其在全局对象上查找这些属性。
 
-> **备注**： Attempting this in strict mode would result in `Uncaught TypeError: Cannot read property 'title' of undefined`, as `this` itself would be `undefined`.
+> **备注**： 在严格模式中尝试`this`会返回`Uncaught TypeError: Cannot read property 'title' of undefined`的错误结果，因为`this`它自身将会是`undefined`
+
+然而，你可以在函数中使用`call`和`apply`调用`book`的上下文`this`。
+
+```javascript
+summary.call(book)
+// or:
+summary.apply(book)
+```
+
+```javascript
+Output
+"Brave New World was written by Aldous Huxley."
+```
+
+现在，当上面的方法运用了，`book`和`summary`之间有了关联。我们来确认下，现在`this`到底是什么。
+
+```javascript
+function printThis() {
+  console.log(this)
+}
+
+printThis.call(book)
+// or:
+whatIsThis.apply(book)
+```
+
+```javascript
+Output
+{title: "Brave New World", author: "Aldous Huxley"}
+```
+
+在这个案例中，`this`实际上变成的所传的参数对象。
+
+这就是说`call`和`apply`一样，但是它们又有点小区别。
+
+除了将第一个参数作为`this`上下文传递之外，你也可以传递其他参数。
+
+```javascript
+function longerSummary(genre, year) {
+  console.log(
+    `${this.title} was written by ${this.author}. It is a ${genre} novel written in ${year}.`
+  )
+}
+```
+
+使用`call`时，你使用的每个额外的值都会被作为附加参数进行传递。
+
+```javascript
+longerSummary.call(book, 'dystopian', 1932)
+```
+
+```javascript
+Output
+"Brave New World was written by Aldous Huxley. It is a dystopian novel written in 1932."
+```
+
+如果你尝试使用`apply`去发送相同的参数，就会发生下面的事情：
+
+```javascript
+longerSummary.apply(book, 'dystopian', 1932)
+```
+
+```javascript
+Output
+Uncaught TypeError: CreateListFromArrayLike called on non-object at <anonymous>:1:15
+```
+
+针对`apply`，作为替代，你需要将参数放在一个数组中传递。
+
+```javascript
+longerSummary.apply(book, ['dystopian', 1932])
+```
+
+```javascript
+Output
+"Brave New World was written by Aldous Huxley. It is a dystopian novel written in 1932."
+```
+
+通过单个参数传递和形成一个数组传递之间的差别是微妙的，但是值得你留意。使用`apply`更加简单和方便，因为如果一些参数的细节改变了，它不需要改变函数调用。
 
 
 
+#### Bind
 
+`call`和`apply`都是一次性使用的方法 -- 如果你调用带有`this`上下文的方法，它将含有此上下文，但是原始的函数依旧没改变。
 
+有时候，你可能需要重复地使用方法来调用另一个对象的上下文，所以，在这种场景下你应该使用`bind`方法来创建一个显示调用`this`的全新函数。
 
+```javasc
+const braveNewWorldSummary = summary.bind(book)
 
+braveNewWorldSummary()
+```
 
+```javasc
+Output
+"Brave New World was written by Aldous Huxley"
+```
 
+在这个例子中，每次你调用`braveNewWorldSummary`，它都会返回绑定它的原始`this`值。尝试绑定一个新的`this`上下文将会失败。因此，你始终可以信任绑定的函数来返回你期待的`this`值。
 
+```javascript
+const braveNewWorldSummary = summary.bind(book)
 
+braveNewWorldSummary() // Brave New World was written by Aldous Huxley.
 
+const book2 = {
+  title: '1984',
+  author: 'George Orwell',
+}
+
+braveNewWorldSummary.bind(book2)
+
+braveNewWorldSummary() // Brave New World was written by Aldous Huxley.
+```
+
+Although this example tries to bind `braveNewWorldSummary` once again, it retains the original `this` context from the first time it was bound.
 
 
 
