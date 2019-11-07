@@ -206,7 +206,47 @@ Output
 <button>Click me</button>
 ```
 
-一旦你～
+如果你复制上面的代码到你的浏览器运行，你将看到一个有`Click me`按钮的页面。如果你点击这个按钮，你会看到`<button>Click me</button>`出现在的控制台上，因为点击按钮打印的元素就是按钮本身。因此，正如你所看到的，`this`指向的目标元素，就是我们向其中添加了事件监听器的元素。
+
+
+
+### 显式上下文
+
+在所有的先前的例子中，`this`的值取决于其上下文 -- 在全局的，在对象中，在构造函数或类中，还是在`DOM`事件处理程序上。然而，使用`call, apply` 或 `bind`，你可以显示地决定`this`应该指向哪。
+
+
+
+决定什么时候使用`call, apply` 或 `bind`是一件很困难的事情，因为它将决定你程序的上下文。当你想使用事件来获取桥套类中的属性时，`bind`可能有用。比如，你写一个简单的游戏，你可能需要在一个类中分离用户接口和`I/O`，然后游戏的逻辑和状态是在另一个类中。由于游戏逻辑需要用户输入，比如按键或点击事件，你可能想要`bind`事件去获取游戏逻辑类中的`this`的值。
+
+最重要的部分是，要知道怎么决定`this`对象指向了哪，这样你就可以像之前章节学的那样隐式操作，或者通过下面的三种方法显示操作。
+
+#### Call 和 Apply
+
+`call`和`apply`非常相似--它们都调用一个带有特定`this`上下文和可选参数的函数。`call`和`apply`的唯一区别就是，`call`需要一个个的传可选参数，而`apply`只需要传一个数组的可选参数。
+
+在下面这个例子中，我们将创建一个对象，创建一个`this`引用的函数，但是`this`没有明确上下文（其实this默认指向了window）。
+
+```javascript
+const book = {
+  title: 'Brave New World',
+  author: 'Aldous Huxley',
+}
+
+function summary() {
+  console.log(`${this.title} was written by ${this.author}.`)
+}
+
+summary()
+```
+
+```javasc
+Output
+"undefined was written by undefined"
+```
+
+因为`summary`和`book`没有关联，调用`summary`本身将只会打印出`undefined`，其在全局对象上查找这些属性。
+
+> **备注**： Attempting this in strict mode would result in `Uncaught TypeError: Cannot read property 'title' of undefined`, as `this` itself would be `undefined`.
 
 
 
@@ -231,28 +271,3 @@ Output
 ### 参考
 
 - 原文：https://dev.to/digitalocean/understanding-this-bind-call-and-apply-in-javascript-dla
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
