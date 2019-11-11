@@ -35,6 +35,9 @@
 
 <h4 align="center">* 博文目錄 *</h4>
 <p align="center"><b>2019-11</b></p>
+<p align="center">coming soon</p>
+
+<p align="center"><b>2019-11</b></p>
 <p align="center"><a href="https://github.com/reng99/blogs/issues/50">【譯】理解JavaScript中的This,Bind,Call和Apply</a></p>
 
 <p align="center"><b>2019-10</b></p>
