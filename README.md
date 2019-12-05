@@ -34,6 +34,9 @@
 </p>
 
 <h4 align="center">* 博文目錄 *</h4>
+<p align="center"><b>2019-12</b></p>
+<p align="center">coming soon</p>
+
 <p align="center"><b>2019-11</b></p>
 <p align="center"><a href="https://github.com/reng99/blogs/issues/53">【譯】為什麽說學習Javascript是個好主意的5個原因</a></p>
 <p align="center"><a href="https://github.com/reng99/blogs/issues/51">從零開始搭建JENKINS+GITHUB持續集成環境【多圖】</a></p>
