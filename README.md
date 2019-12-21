@@ -35,6 +35,7 @@
 
 <h4 align="center">* 博文目錄 *</h4>
 <p align="center"><b>2019-12</b></p>
+<p align="center"><a href="https://github.com/reng99/blogs/issues/55">【譯】HTTP錯誤碼403禁止：意味著什麽，怎麽修復它</a></p>
 <p align="center"><a href="https://github.com/reng99/blogs/issues/54">【譯】9個強大的JavaScript技巧</a></p>
 
 <p align="center"><b>2019-11</b></p>
