@@ -35,7 +35,7 @@
 
 <h4 align="center">* 博文目錄 *</h4>
 <p align="center"><b>2020-01</b></p>
-<p align="center">即将到来</p>
+<p align="center"><a href="https://github.com/reng99/blogs/issues/56">【譯】推薦的十個CSS動畫庫</a></p>
 
 <p align="center"><b>2019-12</b></p>
 <p align="center"><a href="https://github.com/reng99/blogs/issues/55">【譯】HTTP錯誤碼403禁止：意味著什麽，怎麽修復它</a></p>
