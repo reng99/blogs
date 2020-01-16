@@ -153,6 +153,149 @@ bubbleSort = arr => {
 }
 ```
 
+因为是比较第`i`和第`i+1`个元素，所以在交换不符合排序的两个元素之前，只需要对`i`进行`n-2`的排序就即可。知道最大的`n-1`个元素将向右冒泡，因此排序可以在`n-1`个通过之后停止。
+
+当重新遍历数组时，只要考虑没有排序的元素。当交换器保持为0时，就没有其他要交换的内容了。
+
+**冒泡排序算法**
+
+- **最坏的情况：**
+
+一种情况是当数组已经是倒序排好，我们需要对每个数组元素进行冒泡。因为每遍只能将一个元素完全冒泡到其排序的位置，因此排序必须进行`n`次。
+
+用大O表示法，这会被转换成O(n²)。
+
+- **最好的情况：**
+
+数组已经是完美排序好了，导致第一遍就没有元素交换。
+
+用大O表示法，这会被转换成Ω(n)。
+
+### 选择排序
+
+找到最小的未排序的元素，然后将它放到排序好的列表末尾。
+
+伪代码示例#1:
+
+```bash
+Repeat until there is no unsorted elements remaining:
+  Search unsorted part of data to find the smallest value
+  Swap the found value with the first element of the unsorted part
+```
+
+伪代码示例#2:
+
+```bash
+For i from 0 to n-1
+  Find smallest item between i'th item and last item
+  Swap smallest item with i'th item
+```
+
+`JavaScript`语言示例:
+
+```javascript
+selectionSort = arr => {
+  for(let i = 0; i < arr.length-1; i++) {
+    let min = i;
+    for(let j = i+1; j < arr.length; j++) {
+      if(arr[j] < arr[min]) {
+        min = j
+      }
+    }
+    let temp = arr[min];
+    arr[min] = arr[i];
+    arr[i] = temp;
+  }
+  return arr;
+}
+```
+
+**选择排序算法**
+
+- **最坏的情况：**
+
+必须重复`n`次排序过程才能叠戴数组中的每一个，以找到未排序元素的最小元素，将其排序。每遍只排序一个元素。
+
+用大O表示法，这会被转换成O(n²)。
+
+- **最好的情况：**
+
+与最好的情况相同，因为在排序过程遍历数组的**所有元素**之前，无法保证对数组进行排序。
+
+用大O表示法，这会被转换成Ω(n²)。
+
+### 插入排序
+
+在适当的位置建立一个排序的数组；在构建数组时，如有必要，将元素移开以腾出空间。
+
+伪代码示例#1:
+
+```bash
+Call the first element of the array sorted
+Repeat until all elment are sorted:
+  Insert next unsorted item into sorted part shifting the required number of items
+```
+
+伪代码示例#2:
+
+```bash
+For i from 1 to n-1
+  Insert next unsorted item into sorted part shifting i items
+```
+
+`JavaScript`语言示例:
+
+```javascript
+insertionSort = arr => {
+  for(let i = 1; i < arr.length; i++) {
+    let key = arr[i];
+    let j = i-1;
+    while(j >= 0 && arr[j] > key) {
+      arr[j+1] = arr[j];
+      j = j-1;
+    }
+    arr[j+1] = key;
+  }
+  return arr;
+}
+```
+
+**插入排序算法**
+
+- **最坏的情况：**
+
+因为已经是反向有序的数组了，所以每次需要将`n`个元素从`n`个位置移开。
+
+用大O表示法，这会被转换成O(n²)。
+
+- **最好的情况：**
+
+数组已经排序。此时当我们遍历每个元素时，只在未排序和已排序元素之间移动。
+
+用大O表示法，这会被转换成Ω(n)。
+
+### 递归
+
+优雅地编码。🌹
+
+递归与算法或函数的实现方式有关，它不是算法本身。
+
+递归函数将其自身作为执行函数的一部分进行调用。
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
