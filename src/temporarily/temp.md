@@ -282,21 +282,131 @@ insertionSort = arr => {
 
 递归函数将其自身作为执行函数的一部分进行调用。
 
+使用阶乘函数的详细信息：
 
+- *n!* 在所有的整数上定义
+- *n!* 是所有小于等于n的整数相乘
 
+- *n!* 正如 `fact(n)`:
 
+伪代码示例#1:
 
+```bash
+fact(1) = 1
+fact(2) = 2 * 1
+fact(3) = 3 * 2 * 1
+…
+```
 
+伪代码示例#2:
 
+```bash
+fact(1) = 1
+fact(2) = 2 * fact(1)
+fact(3) = 3 * fact(2)
+…
+```
 
+阶乘函数的递归定义的基础：
 
+```javascript
+fact(n) = n * fact(n-1)
+```
 
+**使用递归函数，需要考虑两种情况。**
 
+- **基本情况（base case）**：触发时终止递归过程
+- **递归情况（recursive case）**: 递归发生在哪里
 
+```c
+int fact(int n) {
+  // base case
+  if(n == 1)
+    return 1;
+  // recursive case
+  else
+    return n * fact(n-1)
+}
+```
 
+**可有有多种的基本情况。**
 
+`斐波那契`数列示例，其中：
 
+- 第一个元素是`0`
+- 第二个元素是`1`
+- 第`n`个元素是`(n-1)+(n-2)`的和
 
+**也可能有多种的递归情况。**
+
+比如`科拉茨`推测。
+
+下面使用`javascript`来定义`collatz`函数，计算需要多少步才能置1：
+
+```javascript
+collatz = steps => {
+  // base case
+  if(step == 1) return 0;
+  // recursive case: even numbers
+  else if ((steps % 2) == 0) return 1+collatz(steps/2)
+  // recursive case: odd numbers
+  else return 1+collatz(3*steps+1)
+}
+```
+
+### 归并排序
+
+将数组拆分为小的数组进行排序，然后将这些排序好的数组重新组合在一起。
+
+伪代码示例#1:
+
+```bash
+If only one element
+  Return
+Else
+  Sort left half of elements
+  Sort right half of elements
+  Merge sorted halves
+```
+
+伪代码示例#2:
+
+```bash
+Sort the left half of the array (assuming n > 1)
+Sort right half of the array (assuming n > 1)
+Merge the two halves together
+```
+
+`JavaScript`语言示例（递归）：
+
+```javascript
+// to merge left subarray and right subarray
+merge = (left, right) => {
+  let resultArray = [], leftIndex = 0, rightIndex = 0;
+    
+  // concat values into the resultArray in order
+  while(leftIndex < left.length && rightIndex < right.length) {
+    if(left[leftIndex] < right[rightIndex]) {
+      resultArray.push(left[leftIndex]);
+      leftIndex++;
+    } else {
+      resultArray.push(right[rightIndex]);
+      rightIndex++;
+    }
+  }
+  // concat remaining element from either left OR right
+  return resultArray
+    .concat(left.slice(leftIndex))
+    .concat(right.slice(rightIndex))
+}
+
+mergeSort = arr => {
+  // if array has one element or is empty, no need to sort
+  if(arr.length <= 1) return arr;
+  
+  const mid = Math.floor()
+}
+```
 
 
 ### 参考和后话
