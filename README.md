@@ -19,6 +19,8 @@
 <p align="center">如果您想為本倉庫出力，在此之前請閱讀<a href="./CONTRIBUTING.md">貢獻指南</a>。</p>
 <p align="center">您貢獻的博文若被採用，將在下面的博文目錄中展示出來，形式是<b>標題--源自某某</b>，默認是自己發的博文。</p>
 
+<hr />
+
 <h4 align="center">* 社交--歡迎來撩 *</h4>
 
 <p align="center">
@@ -32,6 +34,8 @@
     4⃣️<a href="./src/other/resume.md">微信</a> 
     5⃣️<a href="https://www.zhihu.com/people/reng99/activities">知乎</a> 
 </p>
+
+<hr />
 
 <h4 align="center">* 博文目錄 *</h4>
 <p align="center"><b>2020-01</b></p> 
@@ -133,6 +137,8 @@
 <p align="center">《做人做到位》 推薦3顆星</p>
 <p align="center">《窮爸爸和富爸爸全集》 推薦3.5顆星</p>
 <p align="center">《視覺錘》 推薦3.5顆星</p>
+
+<hr />
 
 <h4 align="center">* 許可證 *</h4>
 <p align="center"><a href="./LICENSE">MIT </a>CopyRight reng99 since 2018-11</p>
