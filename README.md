@@ -118,6 +118,11 @@
 <p align="center"><b>2018-11</b></center>
 <p align="center"><a href="https://github.com/reng99/blogs/issues/1">【譯】需要學習的是編程，而不是編程語言</a></p>
 
+<hr />
+
+<h4 align="center">* 2020讀過的書(5為滿星) *</h4>
+<p align="center">coming soon ~</p>
+
 <h4 align="center">* 2019讀過的書(5為滿星) *</h4>
 <p align="center">《幸福哲學書》 推薦4顆星</p>
 <p align="center">《瘋癲與文明》 推薦3.5顆星</p>
