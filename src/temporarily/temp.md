@@ -405,6 +405,12 @@ mergeSort = arr => {
   if(arr.length <= 1) return arr;
   
   const mid = Math.floor()
+  // divide the array into left and right
+  const left = arr.slice(0, mid);
+  const right = arr.slice(mid);
+  
+  // merge back together using recursison
+  return merge(mergeSort(left), mergeSort(right)))
 }
 ```
 
