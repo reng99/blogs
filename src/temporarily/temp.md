@@ -19,7 +19,7 @@ function add(x, y){
 
 // 'x = x + 1'执行n次
 function map_add(x, n) {
-  for(let i = 0; i < n; n++){
+  for(let i = 0; i < n; i++){
     x = x + 1
   }
 }
@@ -34,9 +34,39 @@ function loop_add(x, n) {
 }
 ```
 
+上面功能代码只是演示了下`x + 1`执行的次数，那上面的功能代码总共执行了多少次呢？见下面：
 
+```javascript
+function add(x, y){
+  x = x + 1 // 执行1次
+  // 总执行1次
+}
+
+function map_add(x, n) {
+  for(let i = 0; i < n; i++) { // 执行n+1次
+    x = x + 1 // 执行n 次
+  }
+  // 总执行(n+1)+n，即2n+1次
+}
+
+function loop_add(x, n) {
+  for(let i = 0; i < n; i++) { // 执行n+1次
+    for(let j = 0; j < n; j++) { // 执行n*(n+1)次
+      x = x + 1 // 执行 n*n
+    }
+  }
+    // 总执行(n+1)+n*(n+1)+n*n，即2n²+2n+1
+}
+```
+
+### 时间复杂度
+
+**`时间频度`：一个算法中的语句执行次数称为语句频度或时间频度。**
+
+一个算法执行所消耗的时间，从理论上是不能够算出来的，必须上机测试才知道。
 
 ### 参考文件
 
 - https://baijiahao.baidu.com/s?id=1609024533531824968&wfr=spider&for=pc
+- https://github.com/reng99/blogs/issues/5
 
