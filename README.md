@@ -38,6 +38,9 @@
 <hr />
 
 <h4 align="center">* 博文目錄 *</h4>
+<p align="center"><b>2020-02</b></p> 
+<p align="center">coming soon~</p>
+
 <p align="center"><b>2020-01</b></p> 
 <p align="center"><a href="https://github.com/reng99/blogs/issues/58">海有多深，天有多高</a></p>
 <p align="center"><a href="https://github.com/reng99/blogs/issues/57">【譯】算法的筆記</a></p>
