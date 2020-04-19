@@ -38,6 +38,9 @@
 <hr />
 
 <h4 align="center">* 博文目錄 *</h4>
+<p align="center"><b>2020-04</b></p> 
+<p align="center"><a>coming soon</a></p>
+
 <p align="center"><b>2020-03</b></p> 
 <p align="center"><a href="https://github.com/reng99/blogs/issues/62">疫情期間，寫的兩個場景</a></p>
 <p align="center"><a href="https://github.com/reng99/blogs/issues/61">【譯】用純JavaScript寫壹個簡單的MVC App</a></p>
