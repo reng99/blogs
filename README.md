@@ -39,6 +39,9 @@
 
 <h4 align="center">* 博文目錄 *</h4>
 
+<p align="center"><b>2020-07</b></p> 
+<p align="center">本月略忙，無更新！</p>
+
 <p align="center"><b>2020-06</b></p> 
 <p align="center"><a href="https://github.com/reng99/blogs/issues/65">【譯】WEB開發中40+高質量的免費資源</a></p>
 <p align="center"><a href="https://github.com/reng99/blogs/issues/64">使用ant design開發完整的後台系統</a></p>
