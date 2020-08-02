@@ -39,6 +39,9 @@
 
 <h4 align="center">* 博文目錄 *</h4>
 
+<p align="center"><b>2020-08</b></p> 
+<p align="center">coming soon！</p>
+
 <p align="center"><b>2020-07</b></p> 
 <p align="center">本月略忙，無更新！</p>
 
