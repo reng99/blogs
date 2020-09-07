@@ -39,6 +39,9 @@
 
 <h4 align="center">* 博文目錄 *</h4>
 
+<p align="center"><b>2020-09</b></p>
+<p align="center"><a href="https://github.com/reng99/blogs/issues/68">懶加載圖片以獲取最佳性能的最佳方案</a></p>
+
 <p align="center"><b>2020-08</b></p> 
 <p align="center"><a href="https://github.com/reng99/blogs/issues/67">CSS八種讓人眼前一亮HOVER效果</a></p>
 <p align="center"><a href="https://github.com/reng99/blogs/issues/66">【譯】JavaScript -- Map vs ForEach</a></p>
