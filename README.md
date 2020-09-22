@@ -40,6 +40,7 @@
 <h4 align="center">* 博文目錄 *</h4>
 
 <p align="center"><b>2020-09</b></p>
+<p align="center"><a href="https://github.com/reng99/blogs/issues/71">MySql匯總【上】</a></p>
 <p align="center"><a href="https://github.com/reng99/blogs/issues/70">Egg.js 試水 - 文章增刪改查【前後端分離】</a></p>
 <p align="center"><a href="https://github.com/reng99/blogs/issues/69">Egg.js 試水 - 天氣預報</a></p>
 <p align="center"><a href="https://github.com/reng99/blogs/issues/68">懶加載圖片以獲取最佳性能的最佳方案</a></p>
