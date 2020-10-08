@@ -39,6 +39,9 @@
 
 <h4 align="center">* 博文目錄 *</h4>
 
+<p align="center"><b>2020-10</b></p>
+<p align="center">Coming Soon</p>
+
 <p align="center"><b>2020-09</b></p>
 <p align="center"><a href="https://github.com/reng99/blogs/issues/72">JavaScript兩個快速調試的技巧</a></p>
 <p align="center"><a href="https://github.com/reng99/blogs/issues/71">MySql匯總【上】</a></p>
