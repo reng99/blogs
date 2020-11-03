@@ -39,6 +39,9 @@
 
 <h4 align="center">* 博文目錄 *</h4>
 
+<p align="center"><b>2020-11</b></p>
+<p align="center"><a href="https://github.com/reng99/blogs/issues/75">怎樣創建一個谷歌擴展程序</a></p>
+
 <p align="center"><b>2020-10</b></p>
 <p align="center"><a href="https://github.com/reng99/blogs/issues/74">[CSS] 柵格化佈局</a></p>
 <p align="center"><a href="https://github.com/reng99/blogs/issues/73">開發調試的九個技巧【谷歌瀏覽器】</a></p>
