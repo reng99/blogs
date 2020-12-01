@@ -39,6 +39,9 @@
 
 <h4 align="center">* 博文目錄 *</h4>
 
+<p align="center"><b>2020-12</b></p>
+<p align="center">coming soon ...</p>
+
 <p align="center"><b>2020-11</b></p>
 <p align="center"><a href="https://github.com/reng99/blogs/issues/80">REACT生命週期</a></p>
 <p align="center"><a href="https://github.com/reng99/blogs/issues/79">6個規則去淨化你的代碼</a></p>
