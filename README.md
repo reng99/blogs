@@ -36,7 +36,7 @@
 </p>
 
 <hr />
-<h4 align="center">* 商品--每月商品推荐 *</h4>
+<h4 align="center">* 商品--每月商品推薦 *</h4>
 
 <p align="center"><img src="./ad/ad.jpg"></p>
 <p align="center" style="font-weight: bolder;">对着电脑思考太久了？买点红枣核桃补补~</p>
