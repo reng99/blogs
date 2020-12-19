@@ -37,6 +37,12 @@
 
 <hr />
 
+<p align="center"><img src="./ad/ad.jpg"></p>
+<p align="center" style="font-weight: bolder;">对着电脑思考太久了？买点红枣核桃补补~</p>
+<p align="center"><img src="./ad/code_2020_12_19.jpg" /></p>
+
+<hr />
+
 <h4 align="center">* 博文目錄 *</h4>
 
 <p align="center"><b>2020-12</b></p>
