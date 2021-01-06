@@ -46,6 +46,9 @@
 
 <h4 align="center">* 博文目錄 *</h4>
 
+<p align="center"><b>2021-01</b></p>
+<p align="center">coming soon ...</p>
+
 <p align="center"><b>2020-12</b></p>
 <p align="center"><a href="https://github.com/reng99/blogs/issues/81">JavaScript中實用的8個代碼片段</a></p>
 
