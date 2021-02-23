@@ -40,7 +40,7 @@
 <h4 align="center">* 博文目錄 *</h4>
 
 <p align="center"><b>2021-02</b></p>
-<p align="center">coming soon</p>
+<p align="center"><a href="https://github.com/reng99/blogs/issues/84">推薦八個谷歌搜索技巧</a></p>
 
 <p align="center"><b>2021-01</b></p>
 <p align="center"><a href="https://github.com/reng99/blogs/issues/82">10個JS優化小技巧</a></p>
