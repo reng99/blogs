@@ -40,6 +40,7 @@
 <h4 align="center">* 博文目錄 *</h4>
 
 <p align="center"><b>2021-04</b></p>
+<p align="center"><a href="https://github.com/reng99/blogs/issues/93">簡潔設計-毛玻璃效果登錄頁面</a></p>
 <p align="center"><a href="https://github.com/reng99/blogs/issues/92">【面試】邏輯推理 - 農夫養牛問題</a></p>
 
 <p align="center"><b>2021-03</b></p>
