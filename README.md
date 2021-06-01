@@ -40,6 +40,7 @@
 <h4 align="center">* 博文目錄 *</h4>
 
 <p align="center"><b>2021-06</b></p>
+<p align="center"><a href="https://github.com/reng99/blogs/issues/97">🔥七條心裡效應，生活工作兩不誤</a></p>
 <p align="center"><a href="https://github.com/reng99/blogs/issues/96">💦從零開始搭建站點 - 前後端</a></p>
 
 <p align="center"><b>2021-05</b></p>
