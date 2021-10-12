@@ -39,8 +39,11 @@
 
 <h4 align="center">* 博文目錄 *</h4>
 
-<p align="center"><b>2021-09</b></p>
+<p align="center"><b>2021-10</b></p>
 <p align="center">coming soon</p>
+
+<p align="center"><b>2021-09</b></p>
+<p align="center">本月略忙，無更新！</p>
 
 <p align="center"><b>2021-08</b></p>
 <p align="center"><a href="https://github.com/reng99/blogs/issues/103">Flutter 系列 - 环境搭建</a></p>
