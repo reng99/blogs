@@ -40,7 +40,7 @@
 <h4 align="center">* 博文目錄 *</h4>
 
 <p align="center"><b>2021-10</b></p>
-<p align="center">coming soon</p>
+<p align="center"><a href="https://github.com/reng99/blogs/issues/104">Angular 之旅（一）</a></p>
 
 <p align="center"><b>2021-09</b></p>
 <p align="center">本月略忙，無更新！</p>
