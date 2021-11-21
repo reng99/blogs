@@ -39,6 +39,9 @@
 
 <h4 align="center">* 博文目錄 *</h4>
 
+<p align="center"><b>2021-11</b></p>
+<p align="center"><a href="https://github.com/reng99/blogs/issues/105">僅使用 CSS 旋轉製作八卦迷惑動畫 🧘‍♀️</a></p>
+
 <p align="center"><b>2021-10</b></p>
 <p align="center"><a href="https://github.com/reng99/blogs/issues/104">Angular 之旅（一）</a></p>
 
