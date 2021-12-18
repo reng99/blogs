@@ -221,6 +221,7 @@
 <hr />
 
 <h4 align="center">* 2021讀過的書(5為滿星) *</h4>
+<p align="center">《穷查理智慧书》推薦4.5顆星</p>
 <p align="center">《日本窃取钓鱼岛始末》[日] 村田忠禧， 推薦5顆星</p>
 <p align="center"><a href="https://www.zhihu.com/question/449589777/answer/1854566639">《為什麼需要生物學思維》</a>推薦4顆星</p>
 
