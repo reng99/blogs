@@ -40,6 +40,7 @@
 <h4 align="center">* 博文目錄 *</h4>
 
 <p align="center"><b>2022-01</b></p>
+<p align="center"><a href="https://github.com/reng99/blogs/issues/107">Jira 任務同步到 Microsoft Teams</a></p>
 <p align="center"><a href="https://github.com/reng99/blogs/issues/106">JavaScript console 四個實用功能</a></p>
 
 <p align="center"><b>2021-12</b></p>
