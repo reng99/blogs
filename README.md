@@ -28,11 +28,8 @@
     🏃<a href="./src/other/resume.md">關於我</a>
 </p>
 <p align="center">
-    1. <a href="https://weibo.com/reng99">微博</a> 
-    2. <a href="https://github.com/reng99">GITHUB</a> 
-    3. <a href="https://juejin.im/user/5a00493f5188252c224d6475">掘金</a> 
-    4. <a href="./src/other/resume.md">微信</a> 
-    5. <a href="https://www.zhihu.com/people/reng99/activities">知乎</a> 
+    1. <a href="https://juejin.im/user/5a00493f5188252c224d6475">掘金</a> 
+    2. <a href="https://www.zhihu.com/people/reng99/activities">知乎</a> 
 </p>
 
 <hr />
