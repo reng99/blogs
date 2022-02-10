@@ -40,7 +40,7 @@
 <h4 align="center">* 博文目錄 *</h4>
 
 <p align="center"><b>2022-02</b></p>
-<p align="center">coming soon</p>
+<p align="center"><a href="https://github.com/reng99/blogs/issues/110">Jenkins 郵件發送「可修改模版」</a></p>
 
 <p align="center"><b>2022-01</b></p>
 <p align="center"><a href="https://github.com/reng99/blogs/issues/108">🔥 僅使用一個 DIV 配合 CSS 實現餅狀圖</a></p>
