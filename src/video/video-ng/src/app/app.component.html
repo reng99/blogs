@@ -1,0 +1,113 @@
+<div class="video-page">
+  <div class="video-tools">
+    <button nz-button nzType="primary" (click)="play('btn')" style="margin-right: 12px;">播放 ✅</button>
+    <button nz-button nzType="primary" (click)="pause('btn')">暂停 ✅</button>
+    <ng-container>
+      <button nz-button nz-dropdown [nzDropdownMenu]="menuForward" nzPlacement="bottomCenter" style="margin: 0 12px;">快进 ✅</button>
+        <nz-dropdown-menu #menuForward="nzDropdownMenu">
+          <ul nz-menu>
+            <li nz-menu-item (click)="forwardSecond(10)">快进 10 s</li>
+            <li nz-menu-item (click)="forwardSecond(20)">快进 20 s</li>
+          </ul>
+        </nz-dropdown-menu>
+    </ng-container>
+    <ng-container>
+      <button nz-button nz-dropdown [nzDropdownMenu]="menuBack" nzPlacement="bottomCenter">快退 ✅</button>
+        <nz-dropdown-menu #menuBack="nzDropdownMenu">
+          <ul nz-menu>
+            <li nz-menu-item (click)="retreatSecond(10)">快退 10 s</li>
+            <li nz-menu-item (click)="retreatSecond(20)">快退 20 s</li>
+          </ul>
+        </nz-dropdown-menu>
+    </ng-container>
+    <ng-container>
+      <button nz-button nz-dropdown [nzDropdownMenu]="speedUp" nzPlacement="bottomCenter" style="margin: 0 12px;">倍速 ✅</button>
+        <nz-dropdown-menu #speedUp="nzDropdownMenu">
+          <ul nz-menu>
+            <li nz-menu-item (click)="speedUpVideo(1)">正常</li>
+            <li nz-menu-item (click)="speedUpVideo(2)">2 倍</li>
+            <li nz-menu-item (click)="speedUpVideo(4)">4 倍</li>
+          </ul>
+        </nz-dropdown-menu>
+    </ng-container>
+    <button nz-button nzType="primary" (click)="openOrCloseVoice()">声音开 / 声音关 ✅</button>
+    <button nz-button nzType="primary" style="margin: 0 12px;" (click)="toFullScreen()">全屏 ✅</button>
+    <br />
+    <button nz-button nzType="primary" style="margin-top: 12px;" (click)="entryInPicture()">进入画中画 ⚠️ 安卓平板不支持</button>
+    <button nz-button nzType="primary" style="margin: 12px 12px 0 12px;" (click)="exitInPicture()">退出画中画 ⚠️ 安卓平板不支持</button>
+    <br />
+    <div style="display: flex; justify-content: flex-start; align-items: center; margin: 12px 0;">
+      经过时长 / 总时长 ： ✅ {{ currentTime }}  / {{ totalTime }}
+    </div>
+    <!-- 进度条 -->
+    <div style="display: flex; justify-content: flex-start; align-items: center; margin: 12px 0;">
+      进度条：✅
+      <div
+        class="custom-video_control-bg"
+        (mousedown)="handleProgressDown($event)"
+        (mousemove)="handleProgressMove($event)"
+        (mouseup)="handleProgressUp($event)"
+      >
+        <div
+          class="custom-video_control-bg-outside"
+          id="custom-video_control-bg-outside"
+        >
+          <span
+            class="custom-video_control-bg-inside"
+            id="custom-video_control-bg-inside"
+          ></span>
+          <span
+            class="custom-video_control-bg-inside-point"
+            id="custom-video_control-bg-inside-point"
+          ></span>
+        </div>
+      </div>
+    </div>
+    <div style="display: flex; justify-content: flex-start; align-items: center; margin: 12px 0;">
+      声音条：✅
+      <div class="custom-video_control-voice">
+        <span class="custom-video_control-voice-play">
+          <i nz-icon nzType="sound" nzTheme="outline"></i>
+        </span>
+        <div
+          class="custom-video_control-voice-bg"
+          id="custom-video_control-voice-bg"
+          (mousedown)="handleVolProgressDown($event)"
+          (mousemove)="handleVolProgressMove($event)"
+          (mouseup)="handleVolProgressUp($event)"
+        >
+          <div 
+            class="custom-video_control-voice-bg-outside"
+            id="custom-video_control-voice-bg-outside"
+          >
+            <span 
+              class="custom-video_control-voice-bg-inside"
+              id="custom-video_control-voice-bg-inside"
+            ></span>
+            <span 
+              class="custom-video_control-voice-bg-point"
+              id="custom-video_control-voice-bg-point"
+            ></span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- <div style="display: flex; justify-content: flex-start; align-items: center;">
+      录屏功能：
+      <button nz-button nzType="primary" style="margin-right: 12px;" (click)="startCapture()">开始录制</button>
+      <button nz-button nzType="primary" (click)="stopCapture()">暂停录制</button>
+      （比较卡顿，待优化）
+    </div> -->
+  </div>
+  <div class="video-content">
+    <video id="video" class="video" style="width: 100%" poster="assets/poster.png" controlslist="nodownload">
+      <source type="video/mp4" src="assets/demo.mp4">
+      Sorry, your browser doesn't support.
+    </video>
+  </div>
+
+  <!-- <div class="video-content">
+    <button nz-button nzType="primary" style="margin: 12px 0;" (click)="download()">视频下载</button>
+    <video id="videoRtc" class="video" style="width: 100%;"></video>
+  </div> -->
+</div>

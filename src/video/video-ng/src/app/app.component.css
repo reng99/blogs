@@ -1,0 +1,114 @@
+.video-page {
+  width: 800px;
+  margin: 12px;
+  /* 控制栏进度条 */
+  /* 控制栏进度条 —— 总长度 */
+  /* 控制栏进度条 —— 播放长度 */
+}
+.video-page .video-tools {
+  margin-bottom: 12px;
+}
+.video-page .custom-video_control-bg {
+  flex: 1;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 10px;
+}
+.video-page .custom-video_control-bg-outside {
+  width: 100%;
+  height: 5px;
+  border-radius: 2.5px;
+  background-color: #aaa;
+  position: relative;
+  cursor: pointer;
+}
+.video-page .custom-video_control-bg-inside {
+  position: absolute;
+  display: inline-block;
+  width: 0;
+  height: 100%;
+  border-radius: 2.5px;
+  left: 0;
+  top: 0;
+  background-color: blue;
+  transition: all 0.2s;
+}
+.video-page .custom-video_control-bg-inside-point {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background-color: #f00;
+  border-radius: 50%;
+  position: absolute;
+  top: -2.5px;
+  left: -1%;
+  transition: all 0.2s;
+}
+.video-page .custom-video_control-voice {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  position: relative;
+}
+.video-page .custom-video_control-voice:hover > .custom-video_control-voice-bg {
+  display: block;
+}
+.video-page .custom-video_control-voice:hover > .custom-video_control-voice-play {
+  color: #fff;
+}
+.video-page .custom-video_control-voice-play {
+  z-index: 10;
+  color: #1890ff;
+}
+.video-page .custom-video_control-voice-bg {
+  display: none;
+  position: absolute;
+  width: 30px;
+  height: 100px;
+  background-color: rgba(0, 0, 0, 0.55);
+  left: 0;
+  bottom: 0px;
+  border-radius: 15px;
+}
+.video-page .custom-video_control-voice-bg-outside {
+  width: 5px;
+  height: 70px;
+  border-radius: 2.5px;
+  background-color: #aaa;
+  position: absolute;
+  left: 50%;
+  transform: translate3d(-50%, 10%, 0);
+  cursor: pointer;
+}
+.video-page .custom-video_control-voice-bg-inside {
+  display: inline-block;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  border-radius: 2.5px;
+  background-color: #fff;
+  height: 0;
+}
+.video-page .custom-video_control-voice-bg-point {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background-color: #fff;
+  border-radius: 50%;
+  position: absolute;
+  left: -2.5px;
+  bottom: -1px;
+}
+.video-page .custom-video_control-time {
+  font-size: 12px;
+}
+.video-page .custom-video_control-voice {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
