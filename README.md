@@ -36,8 +36,11 @@
 
 <h4 align="center">* 博文目錄 *</h4>
 
+<p align="center"><b>2022-04</b></p>
+<p align="center">正在編寫《前端入門數據結構和算法》系列課程，敬請期待</p>
+
 <p align="center"><b>2022-03</b></p>
-<p align="center">coming soon</p>
+<p align="center">正在編寫《前端入門數據結構和算法》系列課程，敬請期待</p>
 
 <p align="center"><b>2022-02</b></p>
 <p align="center"><a href="https://github.com/reng99/blogs/issues/111">推薦 5 個優秀的 Javascript 圖標庫 🚀</a></p>
