@@ -30,6 +30,7 @@
 <p align="center">
     1. <a href="https://juejin.im/user/5a00493f5188252c224d6475">掘金</a> 
     2. <a href="https://www.zhihu.com/people/reng99/activities">知乎</a> 
+    3. <a href="https://jimmyarea.com/">个人站点</a> 
 </p>
 
 <hr />
