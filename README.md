@@ -38,7 +38,8 @@
 <h4 align="center">* 博文目錄 *</h4>
 
 <p align="center"><b>2022-04</b></p>
-<p align="center">正在編寫課程，敬請期待</p>
+<p align="center"><a href="https://github.com/reng99/blogs/issues/117">了解 Angular 开发的内容</a></p>
+<p align="center"><a href="https://github.com/reng99/blogs/issues/116">Jenkins 结合 Angular 展示构建版本</a></p>
 
 <p align="center"><b>2022-03</b></p>
 <p align="center"><a href="https://github.com/reng99/blogs/issues/113">純 CSS 實現十個還不錯的 Loading 效果</a></p>
