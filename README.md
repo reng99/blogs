@@ -269,6 +269,9 @@
 
 <hr />
 
+<h4 align="center">* 2022讀過的書(5為滿星) *</h4>
+<p align="center">coming soon...</p>
+
 <h4 align="center">* 2021讀過的書(5為滿星) *</h4>
 <p align="center">《一本书搞懂采购》推薦4.0顆星</p>
 <p align="center">《穷查理智慧书》推薦4.5顆星</p>
