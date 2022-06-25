@@ -25,7 +25,7 @@
 
 <p align="center">
     💓<a href="./src/other/donate.md">捐助杯星巴克</a>
-    🏃<a href="./src/other/resume.md">關於我</a>
+    🏃<a href="https://mp.weixin.qq.com/s/fyxGaMJmwm7Dc0nSrBiTww">關於我</a>
 </p>
 <p align="center">
     1. <a href="https://juejin.im/user/5a00493f5188252c224d6475">掘金</a> 
