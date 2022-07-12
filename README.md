@@ -36,6 +36,8 @@
 <hr />
 
 <h4 align="center">* 博文目錄 *</h4>
+<p align="center"><b>2022-06</b></p>
+<p align="center"><a href="https://github.com/reng99/blogs/issues/151">不吹不黑，在外企的工作生活｜年中總結</a></p>
 
 <p align="center"><b>2022-06</b></p>
 <p align="center"><a href="https://github.com/reng99/blogs/issues/150">Flutter iOS 真機測試 -- 值得收藏</a></p>
