@@ -34,6 +34,10 @@
 </p>
 
 <hr />
+<h4 align="center">* 讨论 *</h4>
+<p align="center"><a href="https://github.com/reng99/blogs/discussions">欢迎点击进入讨论</a></p>
+
+<hr />
 
 <h4 align="center">* 博文目錄 *</h4>
 <p align="center"><b>2022-07</b></p>
