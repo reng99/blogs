@@ -40,7 +40,7 @@
 <hr />
 
 <p align="center"><b>2022-09</b></p>
-<p align="center"><a href="https://github.com/reng99/blogs/issues/152">從 Angular Route 中提前獲取數據</a></p>
+<p align="center"><a href="https://github.com/reng99/blogs/issues/153">從 Angular Route 中提前獲取數據</a></p>
 
 <p align="center"><b>2022-08</b></p>
 <p align="center">本月略忙，無更新！</p>
