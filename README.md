@@ -30,7 +30,7 @@
 <p align="center">
     1. <a href="https://juejin.im/user/5a00493f5188252c224d6475">掘金</a> 
     2. <a href="https://www.zhihu.com/people/reng99/activities">知乎</a> 
-    3. <a href="https://jimmyarea.com/">个人站点</a> 
+    3. <a href="https://mp.weixin.qq.com/s/fyxGaMJmwm7Dc0nSrBiTww">个人站点</a> 
 </p>
 
 <hr />
@@ -40,7 +40,7 @@
 <hr />
 
 <p align="center"><b>2022-10 - 至今</b></p>
-<p align="center">如果你对我的博文感兴趣，可前往<a href="https://juejin.cn/user/1996368846261294/posts">这里</a></p>
+<p align="center">最近比较忙～如果你对我的博文感兴趣，可前往<a href="https://juejin.cn/user/1996368846261294/posts">这里</a>。后期会把遗漏的 issues blog 补上～</p>
 
 
 <p align="center"><b>2022-09</b></p>
