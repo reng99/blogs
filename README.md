@@ -40,7 +40,7 @@
 <hr />
 
 <p align="center"><b>2022-10 - 至今</b></p>
-<p align="center">如果你对我的博文感兴趣，可前往<a href="https://juejin.cn/user/1996368846261294/posts">这里</a></p>
+<p align="center">最近比较忙～如果你对我的博文感兴趣，可前往<a href="https://juejin.cn/user/1996368846261294/posts">这里</a>。后期会把遗漏的 issues blog 补上～</p>
 
 
 <p align="center"><b>2022-09</b></p>
