@@ -35,7 +35,7 @@
 
 <hr />
 <h4 align="center">* 2025-01-27 更 *</h4>
-<p align="center">博文统一在 <a href="https://juejin.cn/user/1996368846261294/posts">掘金平台</a> 上维护 (*^_^*)</p>
+<p align="center">精力有限。博文统一在 <a href="https://juejin.cn/user/1996368846261294/posts">掘金平台</a> 上维护 (*^_^*)</p>
 
 <hr />
 
