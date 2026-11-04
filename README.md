@@ -314,3 +314,7 @@
 
 <h4 align="center">* 許可證 *</h4>
 <p align="center"><a href="./LICENSE">MIT </a>CopyRight reng99 since 2018-11</p>
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/chart?repos=reng99/blogs&type=date&legend=top-left)](https://www.star-history.com/?repos=reng99%2Fblogs&type=date&legend=top-left)
